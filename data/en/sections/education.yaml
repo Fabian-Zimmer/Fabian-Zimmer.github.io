@@ -1,0 +1,91 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: Ph.D in Astrophysics & Cosmology
+  icon: fa-graduation-cap
+  timeframe: 2021-2025
+  institution:
+    name: ABC University of Technology
+    url: "#"
+    # logo: /images/sections/education/tech_college.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/tech_college.png
+  publications: #(optional)
+  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    url: "#"
+  - title: Fusce eu augue ut odio porttitor pulvinar.
+    url: "#"
+  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
+    url: "#"
+
+- name: M.Sc. in Gravitation, Astro-, and Particle Physics
+  icon: fa-university
+  timeframe: 2019-2021
+  institution:
+    name: University of Amsterdam
+    url: "#"
+    # logo: /images/sections/education/university.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  publications: #(optional)
+  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    url: "#"
+  - title: Fusce eu augue ut odio porttitor pulvinar.
+    url: "#"
+  extracurricularActivities: #(optional)
+  - In vitae facilisis est, eget porta sem.
+  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  - Duis sed massa feugiat, ornare justo et, aliquam est.
+  - Pellentesque ut fringilla magna.
+  customSections: #(optional)
+    - name: Thesis
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - name: Supervisor
+      content: Fusce eu augue ut odio porttitor pulvinar.
+
+- name: B.Sc. in Physics
+  icon: fa-university
+  timeframe: 2014-2019
+  institution:
+    name: University of Basel
+    url: "#"
+    # logo: /images/sections/education/university.jpg
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/university.jpg
+  extracurricularActivities: #(optional)
+  - In vitae facilisis est, eget porta sem.
+  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  - Duis sed massa feugiat, ornare justo et, aliquam est.
+  - Pellentesque ut fringilla magna.
+  customSections: #(optional)
+    - name: Thesis
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - name: Supervisor
+      content: Fusce eu augue ut odio porttitor pulvinar.
+
+- name: Higher Secondary School Certificate
+  icon: fa-school
+  timeframe: 2009-2014
+  institution:
+    name: Leonhard Gymnasium Basel
+    url: "#"
+    # logo: /images/sections/education/science_college.png
+    # Can optionally show a different logo for dark theme
+    # darkLogo: /images/sections/education/science_college.png
+  extracurricularActivities: #(optional)
+  - In vitae facilisis est, eget porta sem.
+  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  - Duis sed massa feugiat, ornare justo et, aliquam est.
+  - Pellentesque ut fringilla magna.
+  customSections: #(optional)
+    - name: Graduation Project
+      content: Jumping strength in Basketball — Analysis with EEG measurements as well increase via intensive training program.

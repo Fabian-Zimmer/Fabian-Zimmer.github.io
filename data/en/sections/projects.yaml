@@ -1,0 +1,37 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
+
+projects:
+- name: Relic Neutrinos in Silico
+  logo: images/projects/kubernetes.png
+  role: Author
+  timeline: "2021 - 2025"
+  repo: https://github.com/Fabian-Zimmer/neutrino_clustering
+  # url: ""
+  summary: N-1-body simulation code for cosmic background neutrinos.
+  tags: ["academic", "computational physics", "JAX"]
+
+- name: Personal Website
+  logo: images/projects/toha.png
+  role: Owner
+  timeline: "2025 - Present"
+  # url: ""
+  summary: The project for this personal website, based on Hugo and the Toha theme.
+  tags: ["hobby", "soft-dev"]
