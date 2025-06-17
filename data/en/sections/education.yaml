@@ -12,80 +12,64 @@ section:
 degrees:
 - name: Ph.D in Astrophysics & Cosmology
   icon: fa-graduation-cap
-  timeframe: 2021-2025
+  timeframe: 2021 – Present
   institution:
-    name: ABC University of Technology
-    url: "#"
-    # logo: /images/sections/education/tech_college.png
+    name: Universiy of Amsterdam
+    url: "https://www.uva.nl/"
+    logo: /images/sections/education/uva_logo.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
+    # darkLogo: /images/sections/education/uva_logo.png
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
+  - title: Effects of primordial fluctuations in relic neutrino simulations.
+    url: "https://iopscience.iop.org/article/10.1088/1475-7516/2024/10/098"
+  - title: Influence of local structure on relic neutrino abundances and anisotropies.
+    url: "https://iopscience.iop.org/article/10.1088/1475-7516/2023/11/038"
+  # extracurricularActivities: #(optional)
+  # - Some extra activity?
+  customSections: #(optional)
+    - name: "Thesis"
+      content: |
+        Title: Relic Neutrinos in Silico. </br>
+        Summary: By developing a simulation code that simulates trajectory of cosmic background neutrinos, their history throughout the evolution of the Universe and their properties today were analysed. By looking at gravitational effects on various scales, the properties of relic neutrinos on Earth were predicted within the current cosmological model.
 
 - name: M.Sc. in Gravitation, Astro-, and Particle Physics
   icon: fa-university
-  timeframe: 2019-2021
+  timeframe: 2019 – 2021
   institution:
     name: University of Amsterdam
     url: "#"
-    # logo: /images/sections/education/university.jpg
+    logo: /images/sections/education/uva_grappa_logo.png
     # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
+    # darkLogo: /images/sections/education/uva_grappa_logo.jpg
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+  - title: The Andromeda gamma-ray excess — background systematics of the millisecond pulsars and dark matter interpretations.
+    url: "https://doi.org/10.1093/mnras/stac2464"
+  - title: Searches for sterile neutrinos and axionlike particles from the Galactic halo with eROSITA.
+    url: "https://doi.org/10.1103/PhysRevD.104.023021"
+  - title: Decaying dark matter in dwarf spheroidal galaxies — Prospects for x-ray and gamma-ray telescopes.
+    url: "https://doi.org/10.1103/PhysRevD.104.023022"
   customSections: #(optional)
     - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
+      content: |
+        Title: The Mysterious Gamma-Ray Excess of Andromeda — Comparing Millisecond Pulsars to Dark Matter. </br>
+        Summary: A comprehensive study of data from the Fermi-LAT satellite, running statistical analyses to compare which physical model better fits the data: an astrophysical model with fast-spinning stellar remnants called neutron stars, or a dark matter annihilation model containing new physics. Link to thesis ([here](https://scripties.uba.uva.nl/search?id=record_27979)).
 
 - name: B.Sc. in Physics
   icon: fa-university
-  timeframe: 2014-2019
+  timeframe: 2014 – 2019
   institution:
     name: University of Basel
-    url: "#"
-    # logo: /images/sections/education/university.jpg
+    url: "https://www.unibas.ch/en.html"
+    logo: /images/sections/education/uni_basel_logo.jpeg
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/university.jpg
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  customSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
 
 - name: Higher Secondary School Certificate
   icon: fa-school
-  timeframe: 2009-2014
+  timeframe: 2009 – 2014
   institution:
     name: Leonhard Gymnasium Basel
-    url: "#"
-    # logo: /images/sections/education/science_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/science_college.png
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
+    url: "https://www.gymnasium-leonhard.ch/"
   customSections: #(optional)
     - name: Graduation Project
       content: Jumping strength in Basketball — Analysis with EEG measurements as well increase via intensive training program.

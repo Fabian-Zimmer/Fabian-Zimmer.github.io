@@ -6,11 +6,12 @@ greeting: "Hi, I am"
 image: "images/fabian_crop.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "f.zimmer@uva.nl"
+  email: "fabiantje.zimmertje@gmail.com"
   github: https://github.com/Fabian-Zimmer
   linkedin: https://www.linkedin.com/in/fabian-zimmer-b16a471aa/
 
 # some summary about what you do
 # summary:
-#   - Student
-#   - Teacher
+#   - Student & Teacher
+#   - Physicist & Philosopher
+#   - Programmer & Writer

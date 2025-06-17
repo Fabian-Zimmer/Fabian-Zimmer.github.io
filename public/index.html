@@ -16,7 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<link rel="stylesheet" href="/application.8633ffcf7889040ecb26b0b26e07532eb5ec99374ab48845534067e83892c948.css" integrity="sha256-hjP/z3iJBA7LJrCybgdTLrXsmTdKtIhFU0Bn6DiSyUg=" />
+<link rel="stylesheet" href="/application.27956c48f8a4bb6ce69a1390382aa67eedd160e48258a5f220c3627d444d9eb9.css" integrity="sha256-J5VsSPiku2zmmhOQOCqmfu3RYOSCWKXyIMNifURNnrk=" />
 
 
 
@@ -148,7 +148,7 @@ document.documentElement.setAttribute('data-theme', theme)
               
               
                 <li class="nav-item">
-                  <a class="nav-link" href="#recent-posts">Recent Posts</a>
+                  <a class="nav-link" href="#projects">Projects</a>
                 </li>
               
             
@@ -156,7 +156,7 @@ document.documentElement.setAttribute('data-theme', theme)
               
               
                 <li class="nav-item">
-                  <a class="nav-link" href="#projects">Projects</a>
+                  <a class="nav-link" href="#education">Education</a>
                 </li>
               
             
@@ -193,7 +193,7 @@ document.documentElement.setAttribute('data-theme', theme)
                   
                     
                     
-                      <a class="dropdown-item" href="#education">Education</a>
+                      <a class="dropdown-item" href="#recent-posts">Recent Posts</a>
                     
                   
                   
@@ -221,6 +221,9 @@ document.documentElement.setAttribute('data-theme', theme)
           
 
 
+
+  
+  
 
 
 <li class="nav-item dropdown">
@@ -400,15 +403,18 @@ document.documentElement.setAttribute('data-theme', theme)
     }
     .container.content.text-center {
         width: 100%;
-        height: 300px;  
+        height: 360px;  
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         pointer-events: none;
         background: transparent;
-        margin: -310px 0 0 0;    
+         
+        margin: -300px 0 0 0;
         padding: 0 0 0 550px;
+         
+         
     }
     .container.content.text-center * {
         pointer-events: auto;
@@ -448,12 +454,25 @@ document.documentElement.setAttribute('data-theme', theme)
         
           
         
-        <a href="#about" class="arrow-center" aria-label="Read More - Fabian"><i class="arrow bounce fa fa-chevron-down"></i></a>
+        
+        <a href="#about" class="arrow-center static-arrow" aria-label="Read More - Fabian"><i class="fa fa-angle-down"></i></a>
       
     
   </div>
 </div>
-
+<style>
+  .static-arrow {
+    display: block;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    width: fit-content;
+  }
+  .static-arrow .fa-angle-down {
+    font-size: 2.5rem;    
+    color: #222;          
+    transition: none;
+  }
+</style>
     
     
       
@@ -479,17 +498,22 @@ document.documentElement.setAttribute('data-theme', theme)
     
     
      <div class="col-sm-6"> 
-      <h3 class="p-1">Fabian Zimmer</h3>
+      
+       <h3 class="p-1">About me and this site:</h3>
       
       <p class="p-1 text-justify">
-        To get a more realistic impression of me, I listed 3 strengths <strong>and</strong> weaknesses, which I see myself having.
+        <p>During my academic career path, culminating in a PhD in Physics at the University of Amsterdam, I learned about my aptitude for quickly absorbing, transforming, and disseminating knowledge. My passions include a few areas of science and philosophy. To ruminate and discuss the big question about reality and existence is also sought after daily.</p>
+<p>Currently, I endeavour to use my skills to help people/society/humanity in meaningful ways, and to contribute to our ever-growing understanding about who we are and want to be. To get an impression of me, I listed a few strengths <strong>and</strong> weaknesses, which I see myself having, on the right.</p>
+<p>About this website: It is the digital equivalent of my being. It serves as a documentation of my journey so far, as well as an archive for my personal thoughts and writings in the form of posts.</p>
+<p>Scroll down for more; click on posts for my writings. Enjoy!</p>
+
       </p>
       <div class="text-container ms-auto">
         <ul class="social-link d-flex">
           
           <li>
             
-              <a href="mailto:f.zimmer@uva.nl" title="Email" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a>
+              <a href="mailto:fabiantje.zimmertje@gmail.com" title="Email" target="_blank" rel="noopener"><i class="fas fa-envelope"></i></a>
             
           </li>
           
@@ -791,22 +815,115 @@ document.documentElement.setAttribute('data-theme', theme)
         <span id="skills"></span>Skills</h1>
   
   
-  <div class="container d-flex-block">
-    <div class="row" id="primary-skills">
+  <div class="container ms-auto text-center">
+    <div class="btn-group flex-wrap" role="group" id="skill-filter-buttons">
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="all">
+        All
+      </button>
+      
+      <button type="button" class="btn btn-dark skill-filtr-control" data-filter="computer-science">
+        Computer Science
+      </button>
+      
+    </div>
+  </div>
+  <div class="container d-flex-block filtr-skills">
+    <div class="row" id="skill-card-holder" style="margin-left:unset">
   
       
       <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
-  data-category='all, '
+  data-category='all, computer-science'
 >
   <a class="text-decoration-none" href="https://www.python.org/" title="Python" target="_blank" rel="noopener">
     <div class="card">
       <div class="card-head d-flex">
         
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/python_logo_hu_672f0118e7f4cb81.png" alt="Python" />
           <h5 class="card-title">Python</h5>
         
       </div>
       <div class="card-body text-justify pt-1 pb-1">
-        <p class="card-text">Experience in python</p>
+        <p class="card-text">Main programming language, used in various (academic) projects, main experience being in NumPy, JAX, SciPy, Pandas, Matplotlib.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, computer-science'
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/algorithm_logo.svg" alt="Algorithm Design" />
+          <h5 class="card-title">Algorithm Design</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Designed algorithms with focus on scaling and parallel computing on clusters.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, computer-science'
+>
+  <a class="text-decoration-none" href="https://git-scm.com/" title="Git" target="_blank" rel="noopener">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/git_logo_hu_15d77950cb79075d.png" alt="Git" />
+          <h5 class="card-title">Git</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Used Git, mainly GitHub, for version control of most projects.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+    
+      <div class="col-xs-12 col-sm-6 col-lg-4 pt-2 filtr-item"
+  data-category='all, computer-science'
+>
+  <a class="text-decoration-none" >
+    <div class="card">
+      <div class="card-head d-flex">
+        
+          
+          
+          
+            
+          
+        
+          <img class="card-img-xs" src="/images/sections/skills/linux_logo_hu_1dbc6391c584bd2f.png" alt="Linux/Unix" />
+          <h5 class="card-title">Linux/Unix</h5>
+        
+      </div>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p class="card-text">Operating system with main experience, capable of writing bash/shell scripts.</p>
       </div>
     </div>
   </a>
@@ -831,117 +948,6 @@ document.documentElement.setAttribute('data-theme', theme)
   
 
 
-
-
-  
-
-
-
-<div class="container-fluid anchor pb-5 recent-posts-section">
-  
-    <h1 class="text-center">
-        <span id="recent-posts"></span>Recent Posts</h1>
-  
-  <div class="container">
-    <div class="row" id="recent-post-cards">
-      
-        <div class="post-card">
-  <div class="card">
-    <div class="card-head">
-      <a href="/posts/disclaimer/" class="post-card-link">
-        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
-      </a>
-    </div>
-    <div class="card-body">
-      <a href="/posts/disclaimer/" class="post-card-link">
-        <h5 class="card-title">What and why are these posts?</h5>
-        <p class="card-text post-summary">Complete Post Coming Soon&hellip;</p>
-      </a>
-      
-    </div>
-    <div class="card-footer">
-      <span class="float-start">
-          Monday, June 8, 2020
-          </span>
-      <a
-      href="/posts/disclaimer/"
-      class="float-end btn btn-outline-info btn-sm">Read</a>
-    </div>
-  </div>
-</div>
-
-      
-        <div class="post-card">
-  <div class="card">
-    <div class="card-head">
-      <a href="/posts/book_notes/master_and_emissary/" class="post-card-link">
-        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
-      </a>
-    </div>
-    <div class="card-body">
-      <a href="/posts/book_notes/master_and_emissary/" class="post-card-link">
-        <h5 class="card-title">The Master and His Emissary by Iain McGilchrist</h5>
-        <p class="card-text post-summary">Complete Post Coming Soon&hellip;</p>
-      </a>
-      
-    </div>
-    <div class="card-footer">
-      <span class="float-start">
-          Monday, June 8, 2020
-          </span>
-      <a
-      href="/posts/book_notes/master_and_emissary/"
-      class="float-end btn btn-outline-info btn-sm">Read</a>
-    </div>
-  </div>
-</div>
-
-      
-        <div class="post-card">
-  <div class="card">
-    <div class="card-head">
-      <a href="/posts/philosophy_of_science/part2/" class="post-card-link">
-        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
-      </a>
-    </div>
-    <div class="card-body">
-      <a href="/posts/philosophy_of_science/part2/" class="post-card-link">
-        <h5 class="card-title">Part 2: The revolution</h5>
-        <p class="card-text post-summary">Complete Post Coming Soon&hellip;</p>
-      </a>
-      
-    </div>
-    <div class="card-footer">
-      <span class="float-start">
-          Monday, June 8, 2020
-          </span>
-      <a
-      href="/posts/philosophy_of_science/part2/"
-      class="float-end btn btn-outline-info btn-sm">Read</a>
-    </div>
-  </div>
-</div>
-
-      
-    </div>
-  </div>
-  
-</div>
-
-          </div>
-          
-          
-            
-          
-        
-      
-        
-          <div class="container-fluid section-holder d-flex bg-secondary">
-            
-
-  
-
-
 <div class="container-fluid anchor pb-5 projects-section" id="projects">
   
     <h1 class="text-center">
@@ -952,10 +958,6 @@ document.documentElement.setAttribute('data-theme', theme)
       
       <button type="button" class="btn btn-dark project-filtr-control" data-filter="all">
         All
-      </button>
-      
-      <button type="button" class="btn btn-dark project-filtr-control" data-filter="professional">
-        Professional
       </button>
       
       <button type="button" class="btn btn-dark project-filtr-control" data-filter="academic">
@@ -973,7 +975,7 @@ document.documentElement.setAttribute('data-theme', theme)
       
         <div
   class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, academic,computational physics,JAX'
+  data-category='all, academic,computational physics,python,JAX'
 >
   <div class="card mt-1">
     <div class="card">
@@ -983,20 +985,12 @@ document.documentElement.setAttribute('data-theme', theme)
           <div>
             <div class="d-flex">
               
-
-                
-
-                  
-                    
-                  
-
-              
               
               <h5 class="card-title mb-0">Relic Neutrinos in Silico</h5>
             </div>
             <div class="sub-title">
               <span>Author</span>
-              <span>2021 - 2025</span>
+              <span>2021 – 2025</span>
             </div>
           </div>
         </div>
@@ -1014,6 +1008,10 @@ document.documentElement.setAttribute('data-theme', theme)
               
                   <span class="badge btn-info">
                     computational physics
+                  </span>
+              
+                  <span class="badge btn-info">
+                    python
                   </span>
               
                   <span class="badge btn-info">
@@ -1044,7 +1042,141 @@ document.documentElement.setAttribute('data-theme', theme)
       
         <div
   class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
-  data-category='all, hobby,soft-dev'
+  data-category='all, academic,particle physics,python,statistical analysis'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a href="https://github.com/Fabian-Zimmer/PTOLEMY_spectra" target="_blank" rel="noopener">
+        
+        <div class="card-header">
+          <div>
+            <div class="d-flex">
+              
+              
+              <h5 class="card-title mb-0">PTOLEMY Electron Spectra</h5>
+            </div>
+            <div class="sub-title">
+              <span>Author</span>
+              <span>2024 – 2025</span>
+            </div>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>A code I developed for generating electron spectra for the future &ldquo;PTOLEMY&rdquo; experiment, used for my other PhD projects.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    academic
+                  </span>
+              
+                  <span class="badge btn-info">
+                    particle physics
+                  </span>
+              
+                  <span class="badge btn-info">
+                    python
+                  </span>
+              
+                  <span class="badge btn-info">
+                    statistical analysis
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            
+            <a
+              class="github-button project-btn d-none"
+              href="https://github.com/Fabian-Zimmer/PTOLEMY_spectra"
+              data-icon="octicon-standard"
+              data-show-count="true"
+              aria-label="Star PTOLEMY Electron Spectra"
+              >Star</a
+            >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, academic,teaching,learning design,educational coding'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a href="https://github.com/Fabian-Zimmer/Astroparticle_Physics_Teaching" target="_blank" rel="noopener">
+        
+        <div class="card-header">
+          <div>
+            <div class="d-flex">
+              
+              
+              <h5 class="card-title mb-0">Astroparticle Physics Teaching</h5>
+            </div>
+            <div class="sub-title">
+              <span>Author</span>
+              <span>2021 – 2023</span>
+            </div>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>N-1-body simulation code for cosmic background neutrinos.</p>
+        
+        <div class="project-card-footer">
+          
+            <div class="project-tags-holder">
+              
+                  <span class="badge btn-info">
+                    academic
+                  </span>
+              
+                  <span class="badge btn-info">
+                    teaching
+                  </span>
+              
+                  <span class="badge btn-info">
+                    learning design
+                  </span>
+              
+                  <span class="badge btn-info">
+                    educational coding
+                  </span>
+              
+            </div>
+          
+          <div class="project-btn-holder">
+            
+            
+            <a
+              class="github-button project-btn d-none"
+              href="https://github.com/Fabian-Zimmer/Astroparticle_Physics_Teaching"
+              data-icon="octicon-standard"
+              data-show-count="true"
+              aria-label="Star Astroparticle Physics Teaching"
+              >Star</a
+            >
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, hobby,soft-dev,web-dev'
 >
   <div class="card mt-1">
     <div class="card">
@@ -1054,26 +1186,18 @@ document.documentElement.setAttribute('data-theme', theme)
           <div>
             <div class="d-flex">
               
-
-                
-
-                  
-                    
-                  
-
-              
               
               <h5 class="card-title mb-0">Personal Website</h5>
             </div>
             <div class="sub-title">
-              <span>Owner</span>
-              <span>2025 - Present</span>
+              <span>Developer</span>
+              <span>2025 – Present</span>
             </div>
           </div>
         </div>
       </a>
       <div class="card-body text-justify pt-1 pb-1">
-        <p>The project for this personal website, based on Hugo and the Toha theme.</p>
+        <p>The project for this personal website, based on Hugo and the Toha theme. Learned my way around JavaScrypt, Go, YAML, and HTML for web development.</p>
         
         <div class="project-card-footer">
           
@@ -1085,6 +1209,10 @@ document.documentElement.setAttribute('data-theme', theme)
               
                   <span class="badge btn-info">
                     soft-dev
+                  </span>
+              
+                  <span class="badge btn-info">
+                    web-dev
                   </span>
               
             </div>
@@ -1111,7 +1239,7 @@ document.documentElement.setAttribute('data-theme', theme)
         
       
         
-          <div class="container-fluid section-holder d-flex bg-primary">
+          <div class="container-fluid section-holder d-flex bg-secondary">
             
 
 
@@ -1146,14 +1274,19 @@ document.documentElement.setAttribute('data-theme', theme)
                             
                             
                             
+                            <div class="logo-holder"> 
+                                <img class="company-logo light-logo" src="/images/sections/education/uva_logo.png" alt="Ph.D in Astrophysics &amp; Cosmology" />
+                                
+                            </div>
+                            
 
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
-                                        <h5><a href="#" title="ABC University of Technology" target="_blank" rel="noopener">ABC University of Technology</a></h5>
+                                        <h5><a href="https://www.uva.nl/" title="Universiy of Amsterdam" target="_blank" rel="noopener">Universiy of Amsterdam</a></h5>
                                     
                                 </div>
-                                <div class="timeframe col-lg-2 col-md-4">2021-2025</div>
+                                <div class="timeframe col-lg-2 col-md-4">2021 – Present</div>
                             </div>
                             <h6>Ph.D in Astrophysics &amp; Cosmology</h6>
                             
@@ -1163,15 +1296,11 @@ document.documentElement.setAttribute('data-theme', theme)
                                     <ul>
                                         
                                             
-                                                <li><a href="#" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." target="_blank" rel="noopener">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+                                                <li><a href="https://iopscience.iop.org/article/10.1088/1475-7516/2024/10/098" title="Effects of primordial fluctuations in relic neutrino simulations." target="_blank" rel="noopener">Effects of primordial fluctuations in relic neutrino simulations.</a></li>
                                             
                                         
                                             
-                                                <li><a href="#" title="Fusce eu augue ut odio porttitor pulvinar." target="_blank" rel="noopener">Fusce eu augue ut odio porttitor pulvinar.</a></li>
-                                            
-                                        
-                                            
-                                                <li><a href="#" title="Nullam vitae orci tincidunt purus viverra pulvinar." target="_blank" rel="noopener">Nullam vitae orci tincidunt purus viverra pulvinar.</a></li>
+                                                <li><a href="https://iopscience.iop.org/article/10.1088/1475-7516/2023/11/038" title="Influence of local structure on relic neutrino abundances and anisotropies." target="_blank" rel="noopener">Influence of local structure on relic neutrino abundances and anisotropies.</a></li>
                                             
                                         
                                     </ul>
@@ -1179,6 +1308,14 @@ document.documentElement.setAttribute('data-theme', theme)
                             
                             
                             
+                            
+                            <div class="custom-section">
+                                
+                                    <h6 class="text-heading">Thesis: </h6>
+                                    <div class="custom-content">Title: Relic Neutrinos in Silico. </br>
+Summary: By developing a simulation code that simulates trajectory of cosmic background neutrinos, their history throughout the evolution of the Universe and their properties today were analysed. By looking at gravitational effects on various scales, the properties of relic neutrinos on Earth were predicted within the current cosmological model.</div>
+                                
+                            </div>
                             
                         </div>
                     </td>
@@ -1202,6 +1339,11 @@ document.documentElement.setAttribute('data-theme', theme)
                             
                             
                             
+                            <div class="logo-holder"> 
+                                <img class="company-logo light-logo" src="/images/sections/education/uva_grappa_logo.png" alt="M.Sc. in Gravitation, Astro-, and Particle Physics" />
+                                
+                            </div>
+                            
 
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
@@ -1209,7 +1351,7 @@ document.documentElement.setAttribute('data-theme', theme)
                                         <h5><a href="#" title="University of Amsterdam" target="_blank" rel="noopener">University of Amsterdam</a></h5>
                                     
                                 </div>
-                                <div class="timeframe col-lg-2 col-md-4">2019-2021</div>
+                                <div class="timeframe col-lg-2 col-md-4">2019 – 2021</div>
                             </div>
                             <h6>M.Sc. in Gravitation, Astro-, and Particle Physics</h6>
                             
@@ -1219,11 +1361,15 @@ document.documentElement.setAttribute('data-theme', theme)
                                     <ul>
                                         
                                             
-                                                <li><a href="#" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit." target="_blank" rel="noopener">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
+                                                <li><a href="https://doi.org/10.1093/mnras/stac2464" title="The Andromeda gamma-ray excess — background systematics of the millisecond pulsars and dark matter interpretations." target="_blank" rel="noopener">The Andromeda gamma-ray excess — background systematics of the millisecond pulsars and dark matter interpretations.</a></li>
                                             
                                         
                                             
-                                                <li><a href="#" title="Fusce eu augue ut odio porttitor pulvinar." target="_blank" rel="noopener">Fusce eu augue ut odio porttitor pulvinar.</a></li>
+                                                <li><a href="https://doi.org/10.1103/PhysRevD.104.023021" title="Searches for sterile neutrinos and axionlike particles from the Galactic halo with eROSITA." target="_blank" rel="noopener">Searches for sterile neutrinos and axionlike particles from the Galactic halo with eROSITA.</a></li>
+                                            
+                                        
+                                            
+                                                <li><a href="https://doi.org/10.1103/PhysRevD.104.023022" title="Decaying dark matter in dwarf spheroidal galaxies — Prospects for x-ray and gamma-ray telescopes." target="_blank" rel="noopener">Decaying dark matter in dwarf spheroidal galaxies — Prospects for x-ray and gamma-ray telescopes.</a></li>
                                             
                                         
                                     </ul>
@@ -1231,29 +1377,12 @@ document.documentElement.setAttribute('data-theme', theme)
                             
                             
                             
-                            <div class="extracurricular-activities">
-                                <h6 class="text-heading">Extracurricular Activities:</h6>
-                                <ul>
-                                
-                                    <li>In vitae facilisis est, eget porta sem.</li>
-                                
-                                    <li>Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.</li>
-                                
-                                    <li>Duis sed massa feugiat, ornare justo et, aliquam est.</li>
-                                
-                                    <li>Pellentesque ut fringilla magna.</li>
-                                
-                                </ul>
-                            </div>
-                            
                             
                             <div class="custom-section">
                                 
                                     <h6 class="text-heading">Thesis: </h6>
-                                    <div class="custom-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                                
-                                    <h6 class="text-heading">Supervisor: </h6>
-                                    <div class="custom-content">Fusce eu augue ut odio porttitor pulvinar.</div>
+                                    <div class="custom-content">Title: The Mysterious Gamma-Ray Excess of Andromeda — Comparing Millisecond Pulsars to Dark Matter. </br>
+Summary: A comprehensive study of data from the Fermi-LAT satellite, running statistical analyses to compare which physical model better fits the data: an astrophysical model with fast-spinning stellar remnants called neutron stars, or a dark matter annihilation model containing new physics. Link to thesis (<a href="https://scripties.uba.uva.nl/search?id=record_27979" target="_blank" rel="noopener">here</a>).</div>
                                 
                             </div>
                             
@@ -1279,45 +1408,25 @@ document.documentElement.setAttribute('data-theme', theme)
                             
                             
                             
+                            <div class="logo-holder"> 
+                                <img class="company-logo light-logo" src="/images/sections/education/uni_basel_logo.jpeg" alt="B.Sc. in Physics" />
+                                
+                            </div>
+                            
 
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
-                                        <h5><a href="#" title="University of Basel" target="_blank" rel="noopener">University of Basel</a></h5>
+                                        <h5><a href="https://www.unibas.ch/en.html" title="University of Basel" target="_blank" rel="noopener">University of Basel</a></h5>
                                     
                                 </div>
-                                <div class="timeframe col-lg-2 col-md-4">2014-2019</div>
+                                <div class="timeframe col-lg-2 col-md-4">2014 – 2019</div>
                             </div>
                             <h6>B.Sc. in Physics</h6>
                             
                             
                             
                             
-                            <div class="extracurricular-activities">
-                                <h6 class="text-heading">Extracurricular Activities:</h6>
-                                <ul>
-                                
-                                    <li>In vitae facilisis est, eget porta sem.</li>
-                                
-                                    <li>Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.</li>
-                                
-                                    <li>Duis sed massa feugiat, ornare justo et, aliquam est.</li>
-                                
-                                    <li>Pellentesque ut fringilla magna.</li>
-                                
-                                </ul>
-                            </div>
-                            
-                            
-                            <div class="custom-section">
-                                
-                                    <h6 class="text-heading">Thesis: </h6>
-                                    <div class="custom-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-                                
-                                    <h6 class="text-heading">Supervisor: </h6>
-                                    <div class="custom-content">Fusce eu augue ut odio porttitor pulvinar.</div>
-                                
-                            </div>
                             
                         </div>
                     </td>
@@ -1345,30 +1454,15 @@ document.documentElement.setAttribute('data-theme', theme)
                             <div class="row">
                                 <div class="col-lg-10 col-md-8">
                                     
-                                        <h5><a href="#" title="Leonhard Gymnasium Basel" target="_blank" rel="noopener">Leonhard Gymnasium Basel</a></h5>
+                                        <h5><a href="https://www.gymnasium-leonhard.ch/" title="Leonhard Gymnasium Basel" target="_blank" rel="noopener">Leonhard Gymnasium Basel</a></h5>
                                     
                                 </div>
-                                <div class="timeframe col-lg-2 col-md-4">2009-2014</div>
+                                <div class="timeframe col-lg-2 col-md-4">2009 – 2014</div>
                             </div>
                             <h6>Higher Secondary School Certificate</h6>
                             
                             
                             
-                            
-                            <div class="extracurricular-activities">
-                                <h6 class="text-heading">Extracurricular Activities:</h6>
-                                <ul>
-                                
-                                    <li>In vitae facilisis est, eget porta sem.</li>
-                                
-                                    <li>Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.</li>
-                                
-                                    <li>Duis sed massa feugiat, ornare justo et, aliquam est.</li>
-                                
-                                    <li>Pellentesque ut fringilla magna.</li>
-                                
-                                </ul>
-                            </div>
                             
                             
                             <div class="custom-section">
@@ -1385,6 +1479,154 @@ document.documentElement.setAttribute('data-theme', theme)
             </tbody>
         </table>
     </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-primary">
+            
+
+  
+
+
+
+
+  
+
+
+
+<div class="container-fluid anchor pb-5 recent-posts-section">
+  
+    <h1 class="text-center">
+        <span id="recent-posts"></span>Recent Posts</h1>
+  
+  <div class="container">
+    <div class="row" id="recent-post-cards">
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/book_notes/master_and_emissary/" class="post-card-link">
+        <img class="card-img-top" src='/posts/book_notes/master_and_emissary/hero.jpg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/book_notes/master_and_emissary/" class="post-card-link">
+        <h5 class="card-title">The Master and His Emissary by Iain McGilchrist</h5>
+        <p class="card-text post-summary">In his book &ldquo;The Master and His Emissary: The Divided Brain and the Making of the Western World&rdquo;, Iain McGilchrist shows us two views of the world: according to the left and right brain hemisphere.
+</p>
+      </a>
+      
+        <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/neuroscience/" class="btn btn-sm btn-info">neuroscience</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/hypothesis/" class="btn btn-sm btn-info">hypothesis</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/worldview/" class="btn btn-sm btn-info">worldview</a></li>
+    
+  </ul>
+</div>
+
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Wednesday, January 1, 2025
+          </span>
+      <a
+      href="/posts/book_notes/master_and_emissary/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/book_notes/make_it_stick/" class="post-card-link">
+        <img class="card-img-top" src='/posts/book_notes/make_it_stick/hero.png' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/book_notes/make_it_stick/" class="post-card-link">
+        <h5 class="card-title">Make It Stick by Peter C. Brown</h5>
+        <p class="card-text post-summary">Complete Post Coming Soon&hellip; </p>
+      </a>
+      
+        <div class="tags">
+  <ul style="padding-left: 0;">
+    
+    
+    <li class="rounded"><a href="/tags/learning/" class="btn btn-sm btn-info">learning</a></li>
+    
+    
+    <li class="rounded"><a href="/tags/neuroscience/" class="btn btn-sm btn-info">neuroscience</a></li>
+    
+  </ul>
+</div>
+
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Wednesday, January 1, 2025
+          </span>
+      <a
+      href="/posts/book_notes/make_it_stick/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+        <div class="post-card">
+  <div class="card">
+    <div class="card-head">
+      <a href="/posts/disclaimer/" class="post-card-link">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </a>
+    </div>
+    <div class="card-body">
+      <a href="/posts/disclaimer/" class="post-card-link">
+        <h5 class="card-title">What and why are these posts?</h5>
+        <p class="card-text post-summary">Complete Post Coming Soon&hellip;</p>
+      </a>
+      
+        <div class="tags">
+  <ul style="padding-left: 0;">
+    
+  </ul>
+</div>
+
+      
+    </div>
+    <div class="card-footer">
+      <span class="float-start">
+          Monday, June 8, 2020
+          </span>
+      <a
+      href="/posts/disclaimer/"
+      class="float-end btn btn-outline-info btn-sm">Read</a>
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+  
 </div>
 
           </div>
@@ -1413,29 +1655,7 @@ document.documentElement.setAttribute('data-theme', theme)
         <div class="col-md-12 col-lg-6 p-2">
   <div class="card mt-3">
     <div class="card-header">
-      <h5 class="card-title mb-0">Finalist in 3-Minute-Thesis competition</h5>
-      <div class="sub-title">
-        <span><a href="https://www.linuxfoundation.org" title="University of Amsterdam" target="_blank" rel="noopener">University of Amsterdam</a></span>
-        <span class="ms-2">2021</span>
-      </div>
-    </div>
-    <div class="card-body">
-      <p>Making video explaining topic in 3 minutes.</p>
-    </div>
-    <div class="card-footer">
-        
-        <a href="https://example.com" class="btn btn-outline-primary" target="_blank" rel="noopener">
-            Watch Video
-        </a>
-        
-    </div>
-  </div>
-</div>
-      
-        <div class="col-md-12 col-lg-6 p-2">
-  <div class="card mt-3">
-    <div class="card-header">
-      <h5 class="card-title mb-0">Second accomplishment</h5>
+      <h5 class="card-title mb-0">Teaching &amp; Learning Centre — Didactical Modules</h5>
       <div class="sub-title">
         <span><a href="https://www.linuxfoundation.org" title="University of Amsterdam" target="_blank" rel="noopener">University of Amsterdam</a></span>
         <span class="ms-2">2021</span>
@@ -1448,6 +1668,28 @@ document.documentElement.setAttribute('data-theme', theme)
         
         <a href="https://example.com" class="btn btn-outline-primary" target="_blank" rel="noopener">
             View Certificate
+        </a>
+        
+    </div>
+  </div>
+</div>
+      
+        <div class="col-md-12 col-lg-6 p-2">
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">Finalist in 3-Minute-Thesis competition</h5>
+      <div class="sub-title">
+        <span><a href="https://www.linuxfoundation.org" title="University of Amsterdam" target="_blank" rel="noopener">University of Amsterdam</a></span>
+        <span class="ms-2">2022</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <p>Making video explaining topic in 3 minutes.</p>
+    </div>
+    <div class="card-footer">
+        
+        <a href="https://www.linkedin.com/posts/fabian-zimmer-b16a471aa_phd-activity-6954811141185282048-Jak5?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAADDrkYIBn6zcP7XZo8Pwv9Sz7I-iqHJXwLA" class="btn btn-outline-primary" target="_blank" rel="noopener">
+            Watch Video
         </a>
         
     </div>
@@ -1478,10 +1720,6 @@ document.documentElement.setAttribute('data-theme', theme)
 
 
 
-
-  
-      
-  
 
 
 
@@ -1558,15 +1796,6 @@ document.documentElement.setAttribute('data-theme', theme)
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="http://localhost:1313/#recent-posts">Recent Posts</a>
-                </li>
-              
-              
-                
-                
-                  
-                
-                <li class="nav-item">
                   <a class="smooth-scroll" href="http://localhost:1313/#projects">Projects</a>
                 </li>
               
@@ -1577,6 +1806,15 @@ document.documentElement.setAttribute('data-theme', theme)
                 
                 <li class="nav-item">
                   <a class="smooth-scroll" href="http://localhost:1313/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="http://localhost:1313/#recent-posts">Recent Posts</a>
                 </li>
               
               
@@ -1601,8 +1839,8 @@ document.documentElement.setAttribute('data-theme', theme)
           <ul>
             
               
-                <li><a href=mailto:f.zimmer@uva.nl target="_blank" rel="noopener">
-                  <span><i class="fas fa-envelope"></i></span> <span>f.zimmer@uva.nl</span>
+                <li><a href=mailto:fabiantje.zimmertje@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>fabiantje.zimmertje@gmail.com</span>
                 </a></li>
               
             
@@ -1652,7 +1890,7 @@ document.documentElement.setAttribute('data-theme', theme)
   </footer>
 
 
-    <script src="/application.7b9913004b023dbc6aab403dd8f49a808e88927e715cb536d001046ed65d322c.js" integrity="sha256-e5kTAEsCPbxqq0A92PSagI6Ikn5xXLU20AEEbtZdMiw=" defer></script>
+    <script src="/application.99b040efc2cbbc5215ef4bcc7bd2b19842e828b0d3d28dc20cdb6b64587f4d5e.js" integrity="sha256-mbBA78LLvFIV70vMe9KxmELoKLDT0o3CDNtrZFh/TV4=" defer></script>
 
 
     

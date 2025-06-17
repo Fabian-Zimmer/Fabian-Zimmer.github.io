@@ -5,14 +5,13 @@ section:
   enable: true
   weight: 4
   showOnNavbar: true
+  filter: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 buttons:
 - name: All
   filter: "all"
-- name: Professional
-  filter: "professional"
 - name: Academic
   filter: "academic"
 - name: Hobby
@@ -20,18 +19,39 @@ buttons:
 
 projects:
 - name: Relic Neutrinos in Silico
-  logo: images/projects/kubernetes.png
+  # logo: /images/sections/projects/kubernetes.png
   role: Author
-  timeline: "2021 - 2025"
+  timeline: "2021 – 2025"
   repo: https://github.com/Fabian-Zimmer/neutrino_clustering
   # url: ""
   summary: N-1-body simulation code for cosmic background neutrinos.
-  tags: ["academic", "computational physics", "JAX"]
+  tags: ["academic", "computational physics", "python", "JAX"]
+
+- name: PTOLEMY Electron Spectra
+  # logo: /images/sections/projects/PTOLEMY_spectra_logo.png
+  role: Author
+  timeline: "2024 – 2025"
+  repo: https://github.com/Fabian-Zimmer/PTOLEMY_spectra
+  # url: ""
+  summary: A code I developed for generating electron spectra for the future "PTOLEMY" experiment, used for my other PhD projects.
+  tags: ["academic", "particle physics", "python", "statistical analysis"]
+
+- name: Astroparticle Physics Teaching
+  # logo: /images/sections/projects/astroparticle_logo.png
+  role: Author
+  timeline: "2021 – 2023"
+  repo: https://github.com/Fabian-Zimmer/Astroparticle_Physics_Teaching
+  # url: ""
+  summary: N-1-body simulation code for cosmic background neutrinos.
+  tags: ["academic", "teaching", "learning design", "educational coding"]
 
 - name: Personal Website
-  logo: images/projects/toha.png
-  role: Owner
-  timeline: "2025 - Present"
+  # logo: /images/sections/projects/webdev_logo.png
+  role: Developer
+  timeline: "2025 – Present"
   # url: ""
-  summary: The project for this personal website, based on Hugo and the Toha theme.
-  tags: ["hobby", "soft-dev"]
+  summary: The project for this personal website, based on Hugo and the Toha theme. Learned my way around JavaScrypt, Go, YAML, and HTML for web development.
+  tags: ["hobby", "soft-dev", "web-dev"]
+
+
+# https://github.com/Fabian-Zimmer/Astroparticle_Physics_Teaching

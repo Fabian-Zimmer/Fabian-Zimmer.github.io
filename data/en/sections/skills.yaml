@@ -5,14 +5,39 @@ section:
   enable: true
   weight: 2
   showOnNavbar: true
+  filter: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Computer Science
+  filter: "computer-science"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Python
-  # logo: /images/sections/skills/python.png
-  summary: "Experience in python"
+  logo: /images/sections/skills/python_logo.png
+  summary: "Main programming language, used in various (academic) projects, main experience being in NumPy, JAX, SciPy, Pandas, Matplotlib."
   url: "https://www.python.org/"
+  categories: ["computer-science"]
+
+- name: Algorithm Design
+  logo: /images/sections/skills/algorithm_logo.svg
+  summary: "Designed algorithms with focus on scaling and parallel computing on clusters."
+  categories: ["computer-science"]
+
+- name: Git
+  logo: /images/sections/skills/git_logo.png
+  summary: "Used Git, mainly GitHub, for version control of most projects."
+  url: "https://git-scm.com/"
+  categories: ["computer-science"]
+
+- name: Linux/Unix
+  logo: /images/sections/skills/linux_logo.png
+  summary: "Operating system with main experience, capable of writing bash/shell scripts."
+  categories: ["computer-science"]
+

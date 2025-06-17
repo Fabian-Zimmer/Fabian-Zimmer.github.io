@@ -8,15 +8,21 @@ section:
 
 
 # a summary about you
-summary: 'To get a more realistic impression of me, I listed 3 strengths **and** weaknesses, which I see myself having.'
+summary: |
+  During my academic career path, culminating in a PhD in Physics at the University of Amsterdam, I learned about my aptitude for quickly absorbing, transforming, and disseminating knowledge. My passions include a few areas of science and philosophy. To ruminate and discuss the big question about reality and existence is also sought after daily.
+  
+  Currently, I endeavour to use my skills to help people/society/humanity in meaningful ways, and to contribute to our ever-growing understanding about who we are and want to be. To get an impression of me, I listed a few strengths **and** weaknesses, which I see myself having, on the right.
 
+  About this website: It is the digital equivalent of my being. It serves as a documentation of my journey so far, as well as an archive for my personal thoughts and writings in the form of posts. 
+
+  Scroll down for more; click on posts for my writings. Enjoy!
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "f.zimmer@uva.nl"
+  url: "fabiantje.zimmertje@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
