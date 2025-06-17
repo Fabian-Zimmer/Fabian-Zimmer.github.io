@@ -8,7 +8,7 @@ section:
 
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: 'To get a more realistic impression of me, I listed 3 strengths **and** weaknesses, which I see myself having.'
 
 
 # your social links
@@ -37,20 +37,32 @@ resourceLinks:
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
-
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
-
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange  # or HEX color code
+  strengths:
+    - type: soft-skill-indicator
+      name: Research & Learning
+      percentage: 90
+      color: "#0d6fa9"
+    - type: soft-skill-indicator
+      name: Education & Teaching
+      percentage: 80
+      color: "#0d21a9"
+    - type: soft-skill-indicator
+      name: Writing & Communication
+      percentage: 70
+      color: "#470da9"
+  weaknesses:
+    - type: soft-skill-indicator
+      name: Consistency
+      percentage: 50
+      color: "#a00da9"
+    - type: soft-skill-indicator
+      name: Sprints & Deadlines
+      percentage: 40
+      color: "#a90d64"
+    - type: soft-skill-indicator
+      name: Getting lost in details
+      percentage: 30
+      color: "#a90d16"
 
 # - type: certification
 #   name: Certified Kubernetes Security Specialist

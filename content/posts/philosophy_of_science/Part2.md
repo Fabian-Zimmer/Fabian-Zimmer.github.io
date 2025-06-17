@@ -7,8 +7,8 @@ theme: Toha
 menu:
   sidebar:
     name: Part 2
-    identifier: PhiOfSci part 2
-    parent: Philosophy of Science
+    identifier: philo-science-part2
+    parent: philo-science-category
     weight: 10
 ---
 

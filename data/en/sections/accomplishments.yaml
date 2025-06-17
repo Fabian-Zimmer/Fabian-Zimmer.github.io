@@ -1,0 +1,28 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your accomplishments
+accomplishments:
+- name: Finalist in 3-Minute-Thesis competition
+  timeline: "2021"
+  organization:
+    name: University of Amsterdam
+    url: https://www.linuxfoundation.org
+  courseOverview: Making video explaining topic in 3 minutes.
+  certificateURL: "https://example.com"
+  buttonLabel: "Watch Video"
+
+- name: Second accomplishment
+  timeline: "2021"
+  organization:
+    name: University of Amsterdam
+    url: https://www.linuxfoundation.org
+  courseOverview: Making video explaining topic in 3 minutes.
+  certificateURL: "https://example.com"

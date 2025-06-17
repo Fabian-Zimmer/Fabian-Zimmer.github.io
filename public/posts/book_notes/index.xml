@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book Notes on Personal Website &amp; Blog</title>
+    <link>http://localhost:1313/posts/book_notes/</link>
+    <description>Recent content in Book Notes on Personal Website &amp; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Jun 2020 06:00:23 +0600</lastBuildDate><atom:link href="http://localhost:1313/posts/book_notes/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>The Master and His Emissary by Iain McGilchrist</title>
+      <link>http://localhost:1313/posts/book_notes/master_and_emissary/</link>
+      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
+      
+      <guid>http://localhost:1313/posts/book_notes/master_and_emissary/</guid>
+      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
+    </item>
+    
+    <item>
+      <title>Make It Stick by Peter C. Brown</title>
+      <link>http://localhost:1313/posts/book_notes/make_it_stick/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/book_notes/make_it_stick/</guid>
+      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
+    </item>
+    
+    
+  </channel>
+</rss>

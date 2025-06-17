@@ -7,8 +7,8 @@ theme: Toha
 menu:
   sidebar:
     name: Learning Strategies
-    identifier: learn strats
-    parent: Learning Philosophy
+    identifier: philo-learning-part1
+    parent: philo-learning-category
     weight: 10
 ---
 

@@ -53,9 +53,42 @@ params:
     portfolio:
       enable: true
 
-    # Enable blog posts
+    # Enable and configure blog posts
     blog:
       enable: true
+      showAuthor: true
+      # Share post on different social media
+      shareButtons:
+        facebook: true
+        twitter: true
+        linkedin: true
+        reddit: true
+        whatsapp: true
+        email: true
+
+    # Enable & configure "Notes" features
+    notes:
+      enable: false
+
+    # Enable this to create mathematic expressions using `$$` blocks
+    math:
+      enable: true
+      services:
+        # https://katex.org/docs/autorender.html#api for more configurations
+        katex:
+          delimiters:
+            - left: $$
+              right: $$
+              display: true
+            - left: \\[
+              right: \\]
+              display: true
+            - left: $
+              right: $
+              display: false
+            - left: \\(
+              right: \\)
+              display: false
 
     # Enable Table of contents in reading page
     toc:
