@@ -35,8 +35,8 @@ socialLinks:
 
 # your resume. this file path should be relative to you "static" directory
 resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
+- title: "My CV"
+  url: "files/CV.pdf"
 
 
 # You can also show a circular bar indicating the level of expertise on a certain skill
