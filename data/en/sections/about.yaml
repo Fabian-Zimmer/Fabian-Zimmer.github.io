@@ -15,7 +15,7 @@ summary: |
 
   About this website: It is the digital equivalent of my being. It serves as a documentation of my journey so far, as well as an archive for my personal thoughts and writings in the form of posts. 
 
-  Scroll down for more; click on posts for my writings. Enjoy!
+  Scroll down for more; click on posts for my writings.
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -35,8 +35,8 @@ socialLinks:
 
 # your resume. this file path should be relative to you "static" directory
 resourceLinks:
-- title: "My CV"
-  url: "files/CV_FZ_2025.pdf"
+- title: "My Resume"
+  url: "files/resume.pdf"
 
 
 # You can also show a circular bar indicating the level of expertise on a certain skill

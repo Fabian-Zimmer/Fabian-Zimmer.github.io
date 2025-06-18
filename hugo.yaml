@@ -43,6 +43,11 @@ enableEmoji: true
 params:
   # GitHub repo URL of your site
   gitRepo: https://github.com/Fabian-Zimmer/Fabian-Zimmer.github.io
+  gitBranch: main
+
+  # Configure the number of section title visible in the top navbar
+  topNavbar:
+    maxVisibleSections: 6
 
   background: "images/background_banner.jpg"
   # Optional, for a different background image in dark mode
@@ -89,6 +94,13 @@ params:
             - left: \\(
               right: \\)
               display: false
+
+    syntaxHighlight:
+      enable: true
+      services:
+        hljs:
+          # see: https://highlightjs.readthedocs.io/en/latest/api.html#configure
+          noHighlightRe: /^no-highlight$/i
 
     # Enable Table of contents in reading page
     toc:
