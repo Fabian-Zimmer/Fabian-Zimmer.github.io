@@ -44,7 +44,7 @@ params:
   # GitHub repo URL of your site
   gitRepo: https://github.com/Fabian-Zimmer/Fabian-Zimmer.github.io
 
-  background: "images/background.jpg"
+  background: "images/background_banner.jpg"
   # Optional, for a different background image in dark mode
   # darkBackground: "images/name-of-your-dark-background-image.jpg"
 
