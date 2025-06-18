@@ -13,31 +13,79 @@ section:
 buttons:
 - name: All
   filter: "all"
+- name: "Academic"
+  filter: "academic"
 - name: Computer Science
   filter: "computer-science"
+- name: Personal
+  filter: "personal"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+
+# Academic skills
+- name: Science Communication
+  logo: /images/sections/skills/outreach_logo.png
+  summary: "Co-authored articles to explain complex scientific topics and projects to the lay audience; experienced in making video-format educational content. See CV for both."
+  categories: ["academic"]
+
+- name: Collaborative & Independent Research
+  logo: /images/sections/skills/research_logo.png
+  summary: "Thanks to the process of my scientific publications, I learned to do independent research, as well as working and writing together with other scientists."
+  categories: ["academic"]
+
+- name: Education & Teaching
+  logo: /images/sections/skills/education_logo.png
+  summary: "As part of my PhD program, I was assistant teacher in a few courses, helping with classroom teaching, as well as curriculum and learning material design."
+  categories: ["academic"]
+
+- name: Public Speaking
+  logo: /images/sections/skills/speaking_logo.png
+  summary: "Accomplished public presenter and speaker. Learned to adapt language and content to the level of audience's experience and understanding of presentation topics."
+  categories: ["academic"]
+
+# Computer Science skills
 - name: Python
   logo: /images/sections/skills/python_logo.png
-  summary: "Main programming language, used in various (academic) projects, main experience being in NumPy, JAX, SciPy, Pandas, Matplotlib."
+  summary: "Main programming language, used in various (academic) projects, with expertise in NumPy, JAX, SciPy, Pandas, Matplotlib, amongst other libraries."
   url: "https://www.python.org/"
   categories: ["computer-science"]
 
 - name: Algorithm Design
-  logo: /images/sections/skills/algorithm_logo.svg
-  summary: "Designed algorithms with focus on scaling and parallel computing on clusters."
+  logo: /images/sections/skills/algorithm_logo.png
+  summary: "Designed algorithms with focus on scaling and parallel computing on clusters. Aqcuired basics of Cython, C++, SSH, Docker."
+  categories: ["computer-science"]
+
+- name: Machine Learning
+  logo: /images/sections/skills/ML_logo.png
+  summary: "Usage of machine learning libraries to process data and perform statistical analyses, e.g. Scala, OpenCV, Scikit-learn. Basic PyTorch learned via participation and assistance in Machine Learning for Astrophysics course."
   categories: ["computer-science"]
 
 - name: Git
   logo: /images/sections/skills/git_logo.png
-  summary: "Used Git, mainly GitHub, for version control of most projects."
+  summary: "Used Git, mainly GitHub, for version control of most of my projects."
   url: "https://git-scm.com/"
   categories: ["computer-science"]
 
 - name: Linux/Unix
   logo: /images/sections/skills/linux_logo.png
-  summary: "Operating system with main experience, capable of writing bash/shell scripts."
+  summary: "Operating system with main experience; capable of writing bash/shell scripts."
   categories: ["computer-science"]
 
+
+  # Personal skills
+- name: Efficient Reader
+  logo: /images/sections/skills/reading_logo.png
+  summary: "Honed ability to quickly and thoroughly accumulate information, as required to navigate academia. Posts and writing on this website were inspired by encountered literature."
+  categories: ["personal"]
+
+- name: Enthusiastic Writer
+  logo: /images/sections/skills/writing_logo.png
+  summary: "Summarising books, scientific research papers/articles. Some have been put into blog posts on this website."
+  categories: ["personal"]
+
+- name: Organisation
+  logo: /images/sections/skills/obsidian_logo.png
+  summary: "Well-developed personal and professional note-taking system, using softwares like Obsidian. Allowed me to stay organised and calm during stressful times."
+  categories: ["personal"]

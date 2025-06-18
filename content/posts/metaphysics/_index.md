@@ -1,5 +1,6 @@
 ---
 title: Metaphysics
+draft: true
 menu:
   sidebar:
     name: Metaphysics

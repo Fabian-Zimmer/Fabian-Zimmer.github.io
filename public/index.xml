@@ -6,86 +6,24 @@
     <description>Recent content on Personal Website &amp; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Make It Stick by Peter C. Brown</title>
-      <link>http://localhost:1313/posts/book_notes/make_it_stick/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Upcoming posts</title>
+      <link>http://localhost:1313/posts/announcement/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/book_notes/make_it_stick/</guid>
-      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;
-&lt;!-- Math test $$E = mc^2$$. --&gt;</description>
+      <guid>http://localhost:1313/posts/announcement/</guid>
+      <description>&lt;p&gt;Posts to come are about the science of learning, the philosophy of science, metaphysics, notes about awesome books&amp;hellip;and more. Stay tuned.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>The Master and His Emissary by Iain McGilchrist</title>
-      <link>http://localhost:1313/posts/book_notes/master_and_emissary/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <title>Welcome message and context for my posts</title>
+      <link>http://localhost:1313/posts/welcome/</link>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/book_notes/master_and_emissary/</guid>
-      <description>&lt;p&gt;In his book &amp;ldquo;The Master and His Emissary: The Divided Brain and the Making of the Western World&amp;rdquo;, Iain McGilchrist shows us two views of the world: according to the left and right brain hemisphere.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>An introduction to Philosophy of Science: What is it and why?</title>
-      <link>http://localhost:1313/posts/philosophy_of_science/intro/</link>
-      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/philosophy_of_science/intro/</guid>
-      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
-    </item>
-    
-    <item>
-      <title>An introduction to the science of learning</title>
-      <link>http://localhost:1313/posts/learning_philosophy/intro/</link>
-      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/learning_philosophy/intro/</guid>
-      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
-    </item>
-    
-    <item>
-      <title>Effective learning strategies</title>
-      <link>http://localhost:1313/posts/learning_philosophy/learn_strats/</link>
-      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/learning_philosophy/learn_strats/</guid>
-      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
-    </item>
-    
-    <item>
-      <title>Introduction: What comes after physics?</title>
-      <link>http://localhost:1313/posts/metaphysics/introduction/</link>
-      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/metaphysics/introduction/</guid>
-      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
-    </item>
-    
-    <item>
-      <title>Part 1: The early days</title>
-      <link>http://localhost:1313/posts/philosophy_of_science/part1/</link>
-      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/philosophy_of_science/part1/</guid>
-      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
-    </item>
-    
-    <item>
-      <title>Part 2: The revolution</title>
-      <link>http://localhost:1313/posts/philosophy_of_science/part2/</link>
-      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/philosophy_of_science/part2/</guid>
-      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
-    </item>
-    
-    <item>
-      <title>What and why are these posts?</title>
-      <link>http://localhost:1313/posts/disclaimer/</link>
-      <pubDate>Mon, 08 Jun 2020 06:00:23 +0600</pubDate>
-      
-      <guid>http://localhost:1313/posts/disclaimer/</guid>
-      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;</description>
+      <guid>http://localhost:1313/posts/welcome/</guid>
+      <description>&lt;p&gt;Welcome, dear reader.&lt;/p&gt;
+&lt;p&gt;Usually, thoughts are pretty messy, noisy, and transient. The proces of putting them in a coherent order and noting them down in an intelligable way is pretty hard. These posts are my attempts of this process, for topics that I deeply care about, are invested and interested in, and that I think wouldn&amp;rsquo;t hurt to shape our thought processes a little.&lt;/p&gt;
+&lt;p&gt;Some of them are of a &amp;ldquo;mainstream&amp;rdquo; nature, i.e. they are talked about more often in everyday life, whereas some less so. The ones that are less known are the ones that shaped my thinking and decision-making processes the most, and from which I have overall benefitted a lot in my life so far.&lt;/p&gt;</description>
     </item>
     
     

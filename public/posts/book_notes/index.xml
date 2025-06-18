@@ -5,26 +5,6 @@
     <link>http://localhost:1313/posts/book_notes/</link>
     <description>Recent content in Book Notes on Personal Website &amp; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/book_notes/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Make It Stick by Peter C. Brown</title>
-      <link>http://localhost:1313/posts/book_notes/make_it_stick/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/book_notes/make_it_stick/</guid>
-      <description>&lt;h3 id=&#34;complete-post-coming-soon&#34;&gt;Complete Post Coming Soon&amp;hellip;&lt;/h3&gt;
-&lt;!-- Math test $$E = mc^2$$. --&gt;</description>
-    </item>
-    
-    <item>
-      <title>The Master and His Emissary by Iain McGilchrist</title>
-      <link>http://localhost:1313/posts/book_notes/master_and_emissary/</link>
-      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/book_notes/master_and_emissary/</guid>
-      <description>&lt;p&gt;In his book &amp;ldquo;The Master and His Emissary: The Divided Brain and the Making of the Western World&amp;rdquo;, Iain McGilchrist shows us two views of the world: according to the left and right brain hemisphere.&lt;/p&gt;</description>
-    </item>
-    
-    
+    <language>en</language><atom:link href="http://localhost:1313/posts/book_notes/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

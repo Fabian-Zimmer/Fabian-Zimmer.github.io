@@ -1,5 +1,6 @@
 ---
 title: "The Master and His Emissary by Iain McGilchrist"
+draft: true
 date: 2025-01-01
 description: Some info.
 theme: Toha
@@ -12,6 +13,5 @@ menu:
 tags: ["neuroscience", "hypothesis", "worldview"]
 categories: ["books"]
 ---
-
 
 In his book "The Master and His Emissary: The Divided Brain and the Making of the Western World", Iain McGilchrist shows us two views of the world: according to the left and right brain hemisphere.

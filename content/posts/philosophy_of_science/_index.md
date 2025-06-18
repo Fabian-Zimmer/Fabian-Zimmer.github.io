@@ -1,5 +1,6 @@
 ---
 title: Philosophy of Science
+draft: true
 menu:
   sidebar:
     name: Philosophy of Science

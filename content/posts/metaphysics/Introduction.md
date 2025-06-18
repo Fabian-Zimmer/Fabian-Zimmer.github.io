@@ -1,7 +1,7 @@
 ---
 title: "Introduction: What comes after physics?"
+draft: true
 date: 2020-06-08T06:00:23+06:00
-# hero: /images/posts/writing-posts/analytics.svg
 description: ...
 theme: Toha
 menu:

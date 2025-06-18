@@ -14,15 +14,15 @@ accomplishments:
   timeline: "2021"
   organization:
     name: University of Amsterdam
-    url: https://www.linuxfoundation.org
-  courseOverview: Making video explaining topic in 3 minutes.
-  certificateURL: "https://example.com"
+    url: https://www.uva.nl/
+  courseOverview: Completed a training course about the dynamics of a teacher in the classroom, and her interactions with the students.
+  certificateURL: "files/UvA_TLC_certificate.pdf"
 
 - name: Finalist in 3-Minute-Thesis competition
   timeline: "2022"
   organization:
     name: University of Amsterdam
-    url: https://www.linuxfoundation.org
-  courseOverview: Making video explaining topic in 3 minutes.
+    url: https://www.uva.nl/
+  courseOverview: A short 3-minute video, where I explain the topic of my PhD thesis, as well its academic importance to the lay audience. This was part of a national competition, where I managed to reach the finals, but not winning.
   certificateURL: "https://www.linkedin.com/posts/fabian-zimmer-b16a471aa_phd-activity-6954811141185282048-Jak5?utm_source=share&utm_medium=member_desktop&rcm=ACoAADDrkYIBn6zcP7XZo8Pwv9Sz7I-iqHJXwLA"
   buttonLabel: "Watch Video"

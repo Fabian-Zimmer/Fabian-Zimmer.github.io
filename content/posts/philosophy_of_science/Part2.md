@@ -1,5 +1,6 @@
 ---
 title: "Part 2: The revolution"
+draft: true
 date: 2020-06-08T06:00:23+06:00
 # hero: /images/posts/writing-posts/analytics.svg
 description: Part 2

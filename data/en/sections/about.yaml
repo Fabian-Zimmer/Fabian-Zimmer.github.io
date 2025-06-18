@@ -39,13 +39,11 @@ resourceLinks:
   url: "files/CV_FZ_2025.pdf"
 
 
-# Show your badges
-# You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
   strengths:
     - type: soft-skill-indicator
-      name: Research & Learning
+      name: Problem Solving
       percentage: 90
       color: "#0d6fa9"
     - type: soft-skill-indicator
@@ -70,6 +68,8 @@ badges:
       percentage: 30
       color: "#a90d16"
 
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
 # - type: certification
 #   name: Certified Kubernetes Security Specialist
 #   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"

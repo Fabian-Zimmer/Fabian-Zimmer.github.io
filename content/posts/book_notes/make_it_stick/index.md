@@ -1,5 +1,6 @@
 ---
 title: "Make It Stick by Peter C. Brown"
+draft: true
 date: 2025-01-01
 description: Some info
 theme: Toha

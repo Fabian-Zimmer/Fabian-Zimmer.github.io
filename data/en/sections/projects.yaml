@@ -22,27 +22,29 @@ projects:
   # logo: /images/sections/projects/kubernetes.png
   role: Author
   timeline: "2021 – 2025"
-  repo: https://github.com/Fabian-Zimmer/neutrino_clustering
-  # url: ""
-  summary: N-1-body simulation code for cosmic background neutrinos.
+  # repo: 
+  url: https://github.com/Fabian-Zimmer/neutrino_clustering
+  summary: |
+    "N-1-body" simulation code for cosmic background neutrinos that I developed for my main PhD projects and publications.
   tags: ["academic", "computational physics", "python", "JAX"]
 
 - name: PTOLEMY Electron Spectra
   # logo: /images/sections/projects/PTOLEMY_spectra_logo.png
   role: Author
   timeline: "2024 – 2025"
-  repo: https://github.com/Fabian-Zimmer/PTOLEMY_spectra
-  # url: ""
-  summary: A code I developed for generating electron spectra for the future "PTOLEMY" experiment, used for my other PhD projects.
+  # repo: 
+  url: https://github.com/Fabian-Zimmer/PTOLEMY_spectra
+  summary: |
+    A code I developed for generating electron spectra for the future "PTOLEMY" experiment, which was part of the motivation for my PhD project.
   tags: ["academic", "particle physics", "python", "statistical analysis"]
 
 - name: Astroparticle Physics Teaching
   # logo: /images/sections/projects/astroparticle_logo.png
   role: Author
   timeline: "2021 – 2023"
-  repo: https://github.com/Fabian-Zimmer/Astroparticle_Physics_Teaching
-  # url: ""
-  summary: N-1-body simulation code for cosmic background neutrinos.
+  # repo: 
+  url: https://github.com/Fabian-Zimmer/Astroparticle_Physics_Teaching
+  summary: A collection of scripts and notebooks that I wrote to support my teaching activities for an Astroparticle Physics course at the UvA.
   tags: ["academic", "teaching", "learning design", "educational coding"]
 
 - name: Personal Website
@@ -50,7 +52,7 @@ projects:
   role: Developer
   timeline: "2025 – Present"
   # url: ""
-  summary: The project for this personal website, based on Hugo and the Toha theme. Learned my way around JavaScrypt, Go, YAML, and HTML for web development.
+  summary: The project for this current personal website, powered by Hugo and based on the Toha theme. Learned my way around JavaScrypt, Go, YAML, JSON, and HTML for web development.
   tags: ["hobby", "soft-dev", "web-dev"]
 
 

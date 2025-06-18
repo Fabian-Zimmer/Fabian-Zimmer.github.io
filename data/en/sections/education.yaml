@@ -24,8 +24,8 @@ degrees:
     url: "https://iopscience.iop.org/article/10.1088/1475-7516/2024/10/098"
   - title: Influence of local structure on relic neutrino abundances and anisotropies.
     url: "https://iopscience.iop.org/article/10.1088/1475-7516/2023/11/038"
-  # extracurricularActivities: #(optional)
-  # - Some extra activity?
+  extracurricularActivities: #(optional)
+  - Writing of outreach articles for dutch popular science websites and magazines (see CV).
   customSections: #(optional)
     - name: "Thesis"
       content: |
@@ -48,6 +48,8 @@ degrees:
     url: "https://doi.org/10.1103/PhysRevD.104.023021"
   - title: Decaying dark matter in dwarf spheroidal galaxies — Prospects for x-ray and gamma-ray telescopes.
     url: "https://doi.org/10.1103/PhysRevD.104.023022"
+  extracurricularActivities: #(optional)
+  - Tutoring students in physics and mathematics.
   customSections: #(optional)
     - name: Thesis
       content: |
@@ -72,4 +74,5 @@ degrees:
     url: "https://www.gymnasium-leonhard.ch/"
   customSections: #(optional)
     - name: Graduation Project
-      content: Jumping strength in Basketball — Analysis with EEG measurements as well increase via intensive training program.
+      content: |
+        Jumping strength in Basketball — Analysis with EEG measurements as well increase via intensive training program.
