@@ -11,4 +11,4 @@ menu:
     weight: 2
 ---
 
-Posts to come are about the science of learning, the philosophy of science, metaphysics, notes about awesome books...and more. Stay tuned.
+The posts to come are about the science of learning, the philosophy of science, metaphysics, notes about awesome books...and more. Stay tuned.
