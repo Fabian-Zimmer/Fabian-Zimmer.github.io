@@ -3,7 +3,7 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 4
+  weight: 3
   showOnNavbar: true
   filter: true
   # Can optionally hide the title in sections
@@ -19,7 +19,7 @@ buttons:
 
 projects:
 - name: Relic Neutrinos in Silico
-  # logo: /images/sections/projects/kubernetes.png
+  logo: /images/sections/projects/simulation_logo.png
   role: Author
   timeline: "2021 – 2025"
   # repo: 
@@ -29,7 +29,7 @@ projects:
   tags: ["academic", "computational physics", "python", "JAX"]
 
 - name: PTOLEMY Electron Spectra
-  # logo: /images/sections/projects/PTOLEMY_spectra_logo.png
+  logo: /images/sections/projects/atom_logo.png
   role: Author
   timeline: "2024 – 2025"
   # repo: 
@@ -39,7 +39,7 @@ projects:
   tags: ["academic", "particle physics", "python", "statistical analysis"]
 
 - name: Astroparticle Physics Teaching
-  # logo: /images/sections/projects/astroparticle_logo.png
+  logo: /images/sections/projects/astrophysics_logo.png
   role: Author
   timeline: "2021 – 2023"
   # repo: 
@@ -48,10 +48,10 @@ projects:
   tags: ["academic", "teaching", "learning design", "educational coding"]
 
 - name: Personal Website
-  # logo: /images/sections/projects/webdev_logo.png
+  logo: /images/sections/projects/webdev_logo.png
   role: Developer
   timeline: "2025 – Present"
-  # url: ""
+  url: "https://fabian-zimmer.github.io/"
   summary: The project for this current personal website, powered by Hugo and based on the Toha theme. Learned my way around JavaScrypt, Go, YAML, JSON, and HTML for web development.
   tags: ["hobby", "soft-dev", "web-dev"]
 

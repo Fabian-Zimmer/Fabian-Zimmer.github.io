@@ -11,7 +11,7 @@ section:
 summary: |
   During my academic career path, culminating in a PhD in Physics at the University of Amsterdam, I learned about my aptitude for quickly absorbing, transforming, and disseminating knowledge. My passions include a few areas of science and philosophy. To ruminate and discuss the big question about reality and existence is also sought after daily.
   
-  Currently, I endeavour to use my skills to help people/society/humanity in meaningful ways, and to contribute to our ever-growing understanding about who we are and want to be. To get an impression of me, I listed a few strengths **and** weaknesses, which I see myself having, on the right.
+  Currently, I endeavour to use my skills to help people/society/humanity in meaningful ways, and to contribute to our ever-growing understanding about who we are and want to be. My ongoing self-actualisation project can be portrayed with things I currently excel at, and things that I'm still actively improving, as listed on the right.
 
   About this website: It is the digital equivalent of my being. It serves as a documentation of my journey so far, as well as an archive for my personal thoughts and writings in the form of posts. 
 
@@ -34,12 +34,12 @@ socialLinks:
 
 
 # your resume. this file path should be relative to you "static" directory
-resourceLinks:
-- title: "My CV"
-  url: "files/CV.pdf"
+# resourceLinks:
+# - title: "My CV"
+#   url: "files/CV.pdf"
 
 
-# You can also show a circular bar indicating the level of expertise on a certain skill
+# Circlular badges with progress bar. strenths/weaknesses are just the keywords, text displayed on website is different, see about.html.
 badges:
   strengths:
     - type: soft-skill-indicator
@@ -56,17 +56,17 @@ badges:
       color: "#470da9"
   weaknesses:
     - type: soft-skill-indicator
-      name: Consistency
-      percentage: 50
-      color: "#a00da9"
+      name: Crunch Time
+      percentage: 55
+      color: "#48b218"
     - type: soft-skill-indicator
-      name: Sprints & Deadlines
-      percentage: 40
-      color: "#a90d64"
+      name: Asking for Help
+      percentage: 45
+      color: "#18b235"
     - type: soft-skill-indicator
-      name: Getting lost in details
-      percentage: 30
-      color: "#a90d16"
+      name: Overview in Complexity
+      percentage: 35
+      color: "#18b282"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

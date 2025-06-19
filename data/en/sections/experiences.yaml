@@ -1,0 +1,37 @@
+section:
+  name: Experiences # Titre de la section (par défaut: "" )
+  id: experiences # url id/slug of section *Required*
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+
+# Your experiences
+experiences:
+- company:
+    name: University of Amsterdam
+    url: "https://www.uva.nl/"
+    location: Amsterdam, Netherlands
+    logo: /images/sections/experiences/uva_logo.png
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Physics PhD Researcher
+    start: Sep 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Month Year
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Computational modeling of gravitational clustering of relic neutrinos
+    - Temporary leader and coordinater of international research group
+    - Design and supervision of projects for M.Sc. students
+  - designation: Assistant Teacher
+    start: Sep 2021
+    end: Sep 2024
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Giving lectures and tutorials to students
+    - Designing learning material and exams; evaluating performance

@@ -14,7 +14,7 @@ degrees:
   icon: fa-graduation-cap
   timeframe: 2021 – Present
   institution:
-    name: Universiy of Amsterdam
+    name: University of Amsterdam
     url: "https://www.uva.nl/"
     logo: /images/sections/education/uva_logo.png
     # Can optionally show a different logo for dark theme

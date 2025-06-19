@@ -1,4 +1,4 @@
-// The following script is altered from the original, such that the first filter button is selected by default and highlighted in the highlight color.
+// The following script is altered from the original, such that the first filter button is selected by default and highlightsed in the highlights color.
 import Filterizr from 'filterizr'
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -7,16 +7,16 @@ document.addEventListener('DOMContentLoaded', () => {
     new Filterizr('.filtr-skills', {
       layout: 'sameWidth',
       controlsSelector: '.skill-filtr-control',
-      filter: 'highlight'
+      filter: 'highlights'
     })
 
-    // Set Highlight as active on load
+    // Set Highlights as active on load
     document.querySelectorAll('.skill-filtr-control').forEach(btn => {
       btn.classList.remove('active')
     })
-    const highlightBtn = document.querySelector('.skill-filtr-control[data-filter="highlight"]')
-    if (highlightBtn) {
-      highlightBtn.classList.add('active')
+    const highlightsBtn = document.querySelector('.skill-filtr-control[data-filter="highlights"]')
+    if (highlightsBtn) {
+      highlightsBtn.classList.add('active')
     }
 
     // Ensure only one button is active at a time

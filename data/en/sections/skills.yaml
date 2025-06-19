@@ -11,8 +11,8 @@ section:
 
 # filter buttons
 buttons:
-- name: "Highlight"
-  filter: "highlight"
+- name: "Highlights"
+  filter: "highlights"
 - name: "Academic"
   filter: "academic"
 - name: Computer Science
@@ -29,7 +29,7 @@ skills:
 - name: Physics, Mathematics, Logic
   logo: /images/sections/skills/brain_left_logo.png
   summary: "Solid foundation in physics, mathematics, and logic, enabling versatile problem-solving and analytical thinking in both academic and everyday contexts."
-  categories: ["highlight", "academic"]
+  categories: ["highlights", "academic"]
 
 - name: Science Communication
   logo: /images/sections/skills/outreach_logo.png
@@ -61,7 +61,7 @@ skills:
 - name: Programming & AI
   logo: /images/sections/skills/programming_logo.png
   summary: "Expertise in code design, optimisation, and debugging. Main experience in Python, with basics in C++, JavaScript, and SQL. Proficient and deliberate in the use of AI tools."
-  categories: ["highlight", "computer-science"]
+  categories: ["highlights", "computer-science"]
 
 - name: Python
   logo: /images/sections/skills/python_logo.png
@@ -100,7 +100,7 @@ skills:
 - name: Enthusiastic Writer
   logo: /images/sections/skills/writing_logo.png
   summary: "Frequently summarising and writing about books, scientific research papers and articles, or podcasts and video tutorials. Some have been put into blog posts on this website."
-  categories: ["highlight", "personal"]
+  categories: ["highlights", "personal"]
 
 - name: Organisation
   logo: /images/sections/skills/obsidian_logo.png

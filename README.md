@@ -1,0 +1,3 @@
+A personal website I made with [Hugo](https://gohugo.io/). It is based on the [Toha](https://github.com/hugo-toha/toha) theme, but has been heavily modified by me regarding layout, animations, labels, as well as filtering and highlighting features.
+
+The Toha theme has an example website [here](https://hugo-toha.github.io/) and a great documentation to learn how to get started on your own [here](https://toha-guides.netlify.app/posts).
