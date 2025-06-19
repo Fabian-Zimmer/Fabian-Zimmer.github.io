@@ -54,7 +54,7 @@ degrees:
     - name: Thesis
       content: |
         Title: The Mysterious Gamma-Ray Excess of Andromeda — Comparing Millisecond Pulsars to Dark Matter. </br>
-        Summary: A comprehensive study of data from the Fermi-LAT satellite, running statistical analyses to compare which physical model better fits the data: an astrophysical model with fast-spinning stellar remnants called neutron stars, or a dark matter annihilation model containing new physics. Link to thesis ([here](https://scripties.uba.uva.nl/search?id=record_27979)).
+        Summary: A comprehensive study of data from the Fermi-LAT satellite, running statistical analyses to compare which physical model better fits the data: an astrophysical model with fast-spinning stellar remnants called neutron stars, or a dark matter annihilation model containing new physics. Link to thesis [here](https://scripties.uba.uva.nl/search?id=record_27979).
 
 - name: B.Sc. in Physics
   icon: fa-university

@@ -4,3 +4,17 @@
   transform: none !important;
   transition: none !important;
 }
+
+// The following was added, such that the first skill filter button is selected by default and highlighted in the highlight color.
+.skill-filtr-control[data-filter="highlight"].active {
+  background-color: #06b6d4 !important; // theme's active color
+  color: #fff !important;
+  border-color: #06b6d4 !important;
+}
+
+// Highlight the "All" filter button in the projects section with the same color as skills
+.project-filtr-control[data-filter="all"].active {
+  background-color: #06b6d4 !important; // theme's active color
+  color: #fff !important;
+  border-color: #06b6d4 !important;
+}
