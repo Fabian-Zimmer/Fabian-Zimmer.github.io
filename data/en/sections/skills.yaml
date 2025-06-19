@@ -60,7 +60,7 @@ skills:
 # Computer Science skills
 - name: Programming & AI
   logo: /images/sections/skills/programming_logo.png
-  summary: "Expertise in code design, optimisation, and debugging. Main experience in Python, with basics in C++, JavaScript, and SQL. Proficient and deliberate in the use of AI tools."
+  summary: "Expertise in code design, optimisation, and debugging. Main experience in Python, with basics in other programming languages. Proficient and deliberate in the use of AI tools."
   categories: ["highlights", "computer-science"]
 
 - name: Python

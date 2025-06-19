@@ -1,1 +1,0 @@
-- [ ] Write README file for this portfolio website project.
