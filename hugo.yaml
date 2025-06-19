@@ -53,6 +53,9 @@ params:
   # Optional, for a different background image in dark mode
   # darkBackground: "images/name-of-your-dark-background-image.jpg"
 
+  logo:
+    favicon: "images/favicon.png"
+
   features:
     # Enable portfolio section
     portfolio:
