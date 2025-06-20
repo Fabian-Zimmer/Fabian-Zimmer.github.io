@@ -1,6 +1,6 @@
 ---
 title: "Upcoming posts"
-# draft: true
+draft: true
 date: 2025-06-18
 description: Overview of posts that I have planned.
 theme: Toha

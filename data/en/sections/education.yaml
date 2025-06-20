@@ -25,7 +25,7 @@ degrees:
   - title: Influence of local structure on relic neutrino abundances and anisotropies.
     url: "https://iopscience.iop.org/article/10.1088/1475-7516/2023/11/038"
   extracurricularActivities: #(optional)
-  - Writing of outreach articles for dutch popular science websites and magazines (see CV).
+  - Writing of outreach articles in [NTvN](https://www.ntvn.nl/) (Dutch physics magazine) and [Quantum Universe](https://www.quantumuniverse.nl/een-seconde-na-de-oerknal) (popular science website).
   customSections: #(optional)
     - name: "Thesis"
       content: |

@@ -1,7 +1,6 @@
 ---
 title: "Welcome message and context for my posts"
-# draft: true
-date: 2025-06-18
+date: 2025-06-17
 description: Introduction to these posts.
 theme: Toha
 menu:

@@ -1,16 +1,16 @@
 ---
-title: "Part 2: The revolution"
-draft: true
-date: 2020-06-08T06:00:23+06:00
-# hero: /images/posts/writing-posts/analytics.svg
+title: "Part 2: Rationality, Objectivity, and Values in Science"
+date: 2025-06-20
+hero: images/writing.jpg
 description: Part 2
 theme: Toha
 menu:
   sidebar:
-    name: Part 2
+    name: |
+        2: Rationality, Objectivity, Values"
     identifier: philo-science-part2
     parent: philo-science-category
-    weight: 10
+    weight: 11
 ---
 
-### Complete Post Coming Soon...
+Coming Soon...

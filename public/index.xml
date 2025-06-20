@@ -6,19 +6,46 @@
     <description>Recent content on Personal Website &amp; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-      <title>Upcoming posts</title>
-      <link>http://localhost:1313/posts/announcement/</link>
+    <lastBuildDate>Fri, 20 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Part 2: Rationality, Objectivity, and Values in Science</title>
+      <link>http://localhost:1313/posts/philosophy_of_science/part2/</link>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/philosophy_of_science/part2/</guid>
+      <description>&lt;p&gt;Coming Soon&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Part 1: Science and Pseudoscience</title>
+      <link>http://localhost:1313/posts/philosophy_of_science/part1/</link>
+      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/philosophy_of_science/part1/</guid>
+      <description>&lt;p&gt;This posts is about part 1 of the anthology &lt;a href=&#34;https://philpapers.org/rec/CURPOS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Philosophy of Science: Central Issues&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The question addressed in this part seems simple: What counts as science, and what is mere pseudoscience, blind beliefs, and superstition? At first, we can think of certain criteria that any science needs to satisfy. These &amp;ldquo;demarcation criteria&amp;rdquo; have been heavily debated, especially over the last century, and have led to some important realisations in epistemology.&lt;/p&gt;
+&lt;h3 id=&#34;tests-and-puzzles&#34;&gt;Tests and Puzzles&lt;/h3&gt;
+&lt;p&gt;Karl Popper, in his &lt;a href=&#34;https://www.goodreads.com/book/show/61554.Conjectures_and_Refutations&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Science: Conjectures and Refutations (1963)&lt;/a&gt;, proposed a simple one: falsifiability (or refutability, or testability). The more &amp;ldquo;risky&amp;rdquo; (as he called it) predictions a theory makes, the more falsifiable claims the theory has, and the better it is, according to Popper. For example, Einstein&amp;rsquo;s theory of relativity had the &amp;ldquo;risky&amp;rdquo; prediction of the visibility of the bending of light during solar eclipses.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; Contrarily, a bad theory simply adds more devices to re-interpret its refutations, which then make the theory irrefutable. For example, when astrological predictions come out to be untrue, a new interpretation of the planets and stars leads to a corrected conclusion.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>An introduction to Philosophy of Science: What is it and why?</title>
+      <link>http://localhost:1313/posts/philosophy_of_science/intro/</link>
       <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/announcement/</guid>
-      <description>&lt;p&gt;The posts to come are about the science of learning, the philosophy of science, metaphysics, notes about awesome books&amp;hellip;and more. Stay tuned.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/philosophy_of_science/intro/</guid>
+      <description>&lt;p&gt;The word Philosophy is composed of the Greek words for &amp;ldquo;friend&amp;rdquo; (or &amp;ldquo;lover&amp;rdquo;), and &amp;ldquo;wisdom&amp;rdquo;. Combined, it symbolises the interplay of a kind and open attitude to knowledge and the responsibility that comes after attaining it. Then, according to this notion, we can understand philosophy of science as the process of&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;seeking to understand the scientific enterprise and its evolution,&lt;/li&gt;
+&lt;li&gt;recognising the responsibilities that come with the advancements of science,&lt;/li&gt;
+&lt;li&gt;and cultivating wisdom in both the philosopher and the scientific practices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The view we take on a certain topic shapes the questions we ask. And so, while the scientific practitioner may ask &amp;ldquo;how can I interpret my results?&amp;rdquo;, the philosopher of science could ask &amp;ldquo;why choose the specific methods that produced those results over any other?&amp;rdquo;, or &amp;ldquo;are the methods scientific at all?&amp;rdquo; Engaging in such discussions, and attempting to answer these questions is vital to a degree that most modern people don&amp;rsquo;t realise. The commodities and services that we take for granted nowadays are based on a slow and challenging progress of our scientific understanding. Only by understanding which parts of our actions and experiments led to advances, i.e. by identifying which practices were scientific, has humanity bootstrapped itself from the stone age to the information age.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Welcome message and context for my posts</title>
       <link>http://localhost:1313/posts/welcome/</link>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/posts/welcome/</guid>
       <description>&lt;p&gt;Welcome, dear reader.&lt;/p&gt;

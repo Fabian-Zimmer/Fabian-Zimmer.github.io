@@ -18,3 +18,15 @@
   color: #fff !important;
   border-color: #06b6d4 !important;
 }
+
+// Make all post content larger
+.post-content, .content, article {
+  font-size: 1.12rem; // or try 1.2rem, 18px, etc.
+  line-height: 1.7;
+}
+
+// Also possible to increase font size for individual sections
+// .about-section {
+//   font-size: 1.15rem;
+//   line-height: 1.7;
+// }
