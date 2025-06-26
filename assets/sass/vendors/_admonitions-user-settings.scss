@@ -1,0 +1,25 @@
+// assets/sass/vendors/_admonitions-user-settings.scss (in your module)
+//
+// This file is imported by _admonitions.scss to allow user overrides.
+// To customize variables, create a file with this exact path and name
+// in your Hugo project's `assets/sass/vendors/` directory.
+//
+// --- To override specific admonition type colors: ---
+// These will be merged with the module's default type colors.
+$admonition-colors-overrides: (
+  note: #007bff,
+  abstract: #74eaee,
+  question: #ffee00,
+  caution: #ff9900,
+  warning: #ff9900,
+  important: #ff0062,
+  example: #2eeebe,
+  code: #8341ee,
+  idea: #ffffff,
+  conclusion: #e282d5,
+);
+//
+// --- To override the dark mode selector: ---
+// $admonition-dark-selector: ('html[data-my-theme="dark"]');
+//
+// Remember: Do NOT use !default in your override file for these variables.

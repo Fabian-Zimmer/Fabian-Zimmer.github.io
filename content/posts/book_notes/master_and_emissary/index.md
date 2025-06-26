@@ -1,6 +1,6 @@
 ---
 title: "The Master and His Emissary by Iain McGilchrist"
-draft: true
+# draft: true
 date: 2025-01-01
 description: Some info.
 theme: Toha
@@ -15,3 +15,17 @@ categories: ["books"]
 ---
 
 In his book "The Master and His Emissary: The Divided Brain and the Making of the Western World", Iain McGilchrist shows us two views of the world: according to the left and right brain hemisphere.
+
+### Two column split
+
+{{< split 6 6>}}
+#### Left Column
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies.
+
+---
+#### Right Column
+
+Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat.
+
+{{< /split >}}

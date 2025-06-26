@@ -1,6 +1,5 @@
 ---
 title: Book Notes
-draft: true
 menu:
   sidebar:
     name: Book Notes

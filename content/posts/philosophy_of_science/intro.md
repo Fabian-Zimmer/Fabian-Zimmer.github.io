@@ -12,7 +12,7 @@ menu:
 ---
 
 
-The word Philosophy is composed of the Greek words for "friend" (or "lover"), and "wisdom". Combined, it symbolises the interplay of a kind and open attitude to knowledge and the responsibility that comes after attaining it. Then, according to this notion, we can understand philosophy of science as the process of 
+The word Philosophy is composed of the Greek words for "friend" (or "lover"), and "wisdom". A philosopher is then, in a way, a person who has a relationship with, and is in the process of, attaining ever greater understanding and wisdom. However, the philosopher realises that wisdom is not attained by simply accumulating more knowledge, but recognising the consequences and responsibilities that come with it. Reflection upon what has been found, as well as self-reflection on ones changing intent, thought, and (inter)actions with oneself and the world are crucial when walking the path of philosophy. Then, according to this notion, we can understand philosophy of science as the process of 
 - seeking to understand the scientific enterprise and its evolution, 
 - recognising the responsibilities that come with the advancements of science, 
 - and cultivating wisdom in both the philosopher and the scientific practices.
