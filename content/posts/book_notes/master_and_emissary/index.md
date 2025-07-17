@@ -14,18 +14,6 @@ tags: ["neuroscience", "hypothesis", "worldview"]
 categories: ["books"]
 ---
 
-In his book "The Master and His Emissary: The Divided Brain and the Making of the Western World", Iain McGilchrist shows us two views of the world: according to the left and right brain hemisphere.
+This post is about part 1 of the book [The Master and His Emissary](https://www.goodreads.com/book/show/6968772-the-master-and-his-emissary) by Iain McGilchrist. In part 1, Iain tells us a comprehensive overview of the anatomy of our brain, what cognitive functions and abilities are associated with which hemisphere, and how the hemispheres each see and interact with the self, the world and subjective experience.
 
-### Two column split
-
-{{< split 6 6>}}
-#### Left Column
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed leo ultricies ultricies.
-
----
-#### Right Column
-
-Fusce ut leo turpis. Morbi consectetur sed lacus vitae vehicula. Cras gravida turpis id eleifend volutpat.
-
-{{< /split >}}
+Full post coming soon...

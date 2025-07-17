@@ -71,7 +71,7 @@ skills:
 
 - name: Algorithm Design
   logo: /images/sections/skills/algorithm_logo.png
-  summary: "Designed algorithms with focus on scaling and parallel computing on clusters. Aqcuired basics of Cython, C++, SSH, Docker."
+  summary: "Designed algorithms with focus on scaling and parallel computing on clusters. Acquired basics of Cython, C++, SSH, Docker."
   categories: ["computer-science"]
 
 - name: Machine Learning
