@@ -20,6 +20,8 @@ degrees:
     # Can optionally show a different logo for dark theme
     # darkLogo: /images/sections/education/uva_logo.png
   publications: #(optional)
+  - title: Numerical treatment of annual modulation of relic neutrinos.
+    url: "https://arxiv.org/abs/2507.01505"
   - title: Effects of primordial fluctuations in relic neutrino simulations.
     url: "https://iopscience.iop.org/article/10.1088/1475-7516/2024/10/098"
   - title: Influence of local structure on relic neutrino abundances and anisotropies.
