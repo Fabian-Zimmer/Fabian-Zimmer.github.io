@@ -1,7 +1,7 @@
 ---
 title: "The Master and His Emissary by Iain McGilchrist"
 # draft: true
-date: 2025-01-01
+date: 2025-08-01 # year-month-day
 description: Some info.
 theme: Toha
 menu:
