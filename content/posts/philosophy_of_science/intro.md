@@ -21,6 +21,6 @@ Periods in human history where the improvement of the "well-being" for people wa
 
 In the series of posts in this Philosophy of Science category, we'll go over the comprehensive anthology [Philosophy of Science: Central Issues](https://philpapers.org/rec/CURPOS). The book is segmented into nine parts, and each post deals with one part. These parts are comprised of essays, articles, excerpts from books, and philosophy papers from various well-known intellectuals in this field, that share a common topic and address the issue of the chapter at hand. We will see that the topics are for more than just academic interest, and have real world impact by shaping the minds of individuals, future generations, and the course of society at large.
 
-In my time at academia when doing my PhD, I regularly presented topics such as these in group meetings. For those I have made simple slides with drawings and texts by hand, which I attached below. They contain key take away messages from parts 1 – 3, which will be covered in the first three posts.
+<!-- In my time at academia when doing my PhD, I regularly presented topics such as these in group meetings. For those I have made simple slides with drawings and texts by hand, which I attached below. They contain key take away messages from parts 1 – 3, which will be covered in the first three posts.
 
-{{< embed-pdf src="/files/philosophy_of_science_part1.pdf" >}}
+{{< embed-pdf src="/files/philosophy_of_science_part1.pdf" >}} -->
