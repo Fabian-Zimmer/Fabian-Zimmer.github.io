@@ -1,7 +1,7 @@
 ---
 title: "Part 2: Rationality, Objectivity, and Values in Science"
 date: 2025-09-03
-hero: images/philosophy_of_science/part2.jpg
+hero: images/philosophy_of_science/phi_of_sci_part2.jpg
 description: Part 2
 theme: Toha
 menu:

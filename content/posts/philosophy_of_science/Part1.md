@@ -1,7 +1,7 @@
 ---
 title: "Part 1: Science and Pseudoscience"
 date: 2025-06-19
-hero: images/philosophy_of_science/part1.jpg
+hero: images/philosophy_of_science/phi_of_sci_part1.jpg
 theme: Toha
 menu:
   sidebar:
