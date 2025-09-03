@@ -13,7 +13,7 @@ menu:
 ---
 
 
-This posts is about part 1 of the anthology [Philosophy of Science: Central Issues (1998)](https://philpapers.org/rec/CURPOS).
+This article is about part 1 of the anthology [Philosophy of Science: Central Issues (1998)](https://philpapers.org/rec/CURPOS).
 
 The question addressed in this part seems simple: What counts as science, and what is mere pseudoscience, blind beliefs, and superstition? At first, we can think of certain criteria that any science needs to satisfy. These "demarcation criteria" have been heavily debated, especially over the last century, and have led to some important realisations in epistemology. 
 
