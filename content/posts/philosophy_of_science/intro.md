@@ -1,5 +1,5 @@
 ---
-title: "An introduction to Philosophy of Science: What is it and why?"
+title: "An Introduction to Philosophy of Science: What is it and Why?"
 date: 2025-06-18
 hero: images/philosophy_of_science/intro.jpg
 theme: Toha
