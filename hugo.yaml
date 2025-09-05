@@ -1,6 +1,6 @@
 baseURL: https://Fabian-Zimmer.github.io/
 languageCode: en
-title: Personal Website & Blog
+title: Personal Website & Writings
 
 module:
   imports:

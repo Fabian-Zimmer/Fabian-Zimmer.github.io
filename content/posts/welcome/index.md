@@ -12,7 +12,7 @@ menu:
 
 Welcome, dear reader.
 
-Usually, thoughts are pretty messy, noisy, and transient. The process of putting them in a coherent order and noting them down in an intelligible way is pretty hard. These posts are my attempts of this process, for topics that I deeply care about, are invested and interested in, and that I think wouldn't hurt to shape our thought processes a little.
+Usually, thoughts are pretty messy, noisy, and transient. The process of putting them in a coherent order and noting them down in an intelligible way is pretty hard. The writings found on this website are my attempts of this process, for topics that I deeply care about, are invested and interested in, and that I think wouldn't hurt to shape our thought processes a little.
 
 Some of them are of a "mainstream" nature, i.e. they are talked about more often in everyday life, whereas some less so. The ones that are less known are the ones that shaped my thinking and decision-making processes the most, and from which I have overall benefited a lot in my life so far. Although most of my articles here are based on books and scientific papers, there is also a dedicated "Book Notes" section that contains summaries of literature that I liked a lot. 
 
