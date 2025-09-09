@@ -30,3 +30,15 @@
 //   font-size: 1.15rem;
 //   line-height: 1.7;
 // }
+
+/* Example: Add to your main CSS file */
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/fonts/AtkinsonHyperlegibleNext-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'MyCustomFont', sans-serif;
+}
