@@ -6,7 +6,16 @@
     <description>Recent content in Articles on Personal Website &amp; Writings</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Tue, 09 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Part 3: The Duhem-Quine Thesis and Underdetermination</title>
+      <link>http://localhost:1313/posts/philosophy_of_science/part3/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/philosophy_of_science/part3/</guid>
+      <description>&lt;p&gt;This article is about part 3 of the anthology &lt;a href=&#34;https://philpapers.org/rec/CURPOS&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Philosophy of Science: Central Issues (1998)&lt;/a&gt;. This part revolves around the principle of underdetermination, and the related formulations of influential philosophers such as Pierre Duhem and Willard V. O. Quine. In short, underdetermination embodies the idea, that a given body of evidence cannot uniquely determine which theories and beliefs we should espouse. This idea was already mentioned in the &lt;a href=&#34;https://fabian-zimmer.github.io/posts/philosophy_of_science/part2/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;previous article about part 2&lt;/a&gt;, but will be thoroughly explained in this article.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Part 2: Rationality, Objectivity, and Values in Science</title>
       <link>http://localhost:1313/posts/philosophy_of_science/part2/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>

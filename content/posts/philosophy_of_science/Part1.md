@@ -43,4 +43,4 @@ The relevancy of such philosophical discussions is perfectly exemplified by the 
 Arguably, to this date, there is no consensus and the demarcation question remains unanswered. All the following parts in the anthology, that will be covered in the next articles, can be seen to provide more ideas, discussions, and advancements in the philosophy of science to contribute to the ongoing attempt to answer this defining question.
 
 
-[^1]: See [this Nature article](_https://doi.org/10.1038/d41586-019-01172-z_) for a short overview of the experiment that confirmed Einstein's prediction, and associated literature.
+[^1]: See [this Nature article](https://doi.org/10.1038/d41586-019-01172-z) for a short overview of the experiment that confirmed Einstein's prediction, and associated literature.

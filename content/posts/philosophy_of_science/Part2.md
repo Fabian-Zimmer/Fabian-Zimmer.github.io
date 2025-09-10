@@ -10,7 +10,7 @@ menu:
         2: Rationality, Objectivity, Values"
     identifier: philo-science-part2
     parent: philo-science-category
-    weight: 11
+    weight: 12
 ---
 
 

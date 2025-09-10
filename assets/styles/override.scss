@@ -33,12 +33,10 @@
 
 /* Example: Add to your main CSS file */
 @font-face {
-  font-family: 'MyCustomFont';
-  src: url('/fonts/AtkinsonHyperlegibleNext-Regular.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
+  font-family: 'AtkinsonRegular';
+  src: url('/fonts/AtkinsonHyperlegibleNext-Regular.ttf');
 }
 
 body {
-  font-family: 'MyCustomFont', sans-serif;
+  font-family: 'AtkinsonRegular';
 }
