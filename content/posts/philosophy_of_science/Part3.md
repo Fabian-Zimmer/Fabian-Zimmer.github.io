@@ -85,6 +85,7 @@ We can suppose that the rational character of a theory could be shown to exist, 
 2. logically entail the evidence;
 3. explain the evidence;
 4. be empirically supported by the evidence.
+
 Although the act of abandoning auxiliary hypotheses of a theory that link to the recalcitrant evidence can trivially satisfy the 1st point, it is by no means guaranteed, that the loss of predictive and explanatory power, as well as empirical support that existed presumably precisely because of these auxiliaries, can be restored easily with alternatives to again satisfy the 2nd, 3rd and 4th points to a sufficient degree.
 
 The true threat to the epistemological project would be ampliative underdetermination in the form of strong egalitarian versions like the QUD. For if these were put into strongly convincing terms, they would, to put it frighteningly, put the flat-earth and the oblate-spheroid hypotheses on equal rational grounds. Kuhn’s version of this would be to hold on to a paradigm come what may. His arguments for this egalitarian claim are, to put it briefly, based on the ambiguous nature of how individuals interpret shared standards. But as we have seen in the previous article, these supposedly deciding factors are rather "unargued dogma" and "if one takes away that dogma, much of the surrounding edifice collapses", as Laudan now puts it.
