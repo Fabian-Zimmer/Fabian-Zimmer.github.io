@@ -12,6 +12,6 @@ menu:
     identifier: philo-science-part4
     parent: philo-science-category
     weight: 14
-mermaid: true
+# mermaid: true
 ---
 
