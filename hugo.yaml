@@ -168,3 +168,11 @@ params:
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
       enable: false
+  
+  analytics:
+  enable: true
+  services:
+    # GoatCounter
+    goatCounter:
+      code: fabian-zimmer  # Not self-hosted
+      # instance: <your GoatCounter instance url>  # For self-hosted you should use only one of the two methods
