@@ -22,3 +22,12 @@
 {{ with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
 {{ end }}
+
+<!-- Checks whether mermaid: true is in the front matter of posts. -->
+{{ if .Page.Params.mermaid }}
+{{ partial "mermaid.html" . }}
+{{ end }}
+
+<!-- For site statistics, like visits. -->
+<script data-goatcounter="https://fabian-zimmer.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
