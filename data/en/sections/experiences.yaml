@@ -35,3 +35,22 @@ experiences:
     responsibilities:
     - Giving lectures and tutorials to students
     - Designing learning material and exams; evaluating performance
+
+- company:
+    name: University of Amsterdam
+    url: "https://www.uva.nl/"
+    location: Amsterdam, Netherlands
+    logo: /images/sections/experiences/uva_logo.png
+    # darkLogo: /images/experiences/company-dark.png #(optional), Can optionally show a different logo for dark theme
+    # company overview
+    # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+  positions:
+  - designation: Research Assistant
+    start: June 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: Sep 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Developing code to generate artificial data for Milky Way dwarf galaxies
+    - Performing statistical data analyses, MCMC, and likelihood estimations
+    - Contributiing to writing manuscript for publication
