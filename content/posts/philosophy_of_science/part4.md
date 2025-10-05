@@ -1,8 +1,8 @@
 ---
 title: "Part 4: Induction, Prediction, Evidence"
-date: 2025-09-11
+date: 2025-10-05
 draft: true
-hero: images/philosophy_of_science/phi_of_sci_part3.jpg
+hero: images/philosophy_of_science/phi_of_sci_part4.jpg
 description: Part 4
 theme: Toha
 menu:
@@ -15,3 +15,4 @@ menu:
 # mermaid: true
 ---
 
+Coming soon...

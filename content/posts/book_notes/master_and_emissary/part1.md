@@ -2,12 +2,12 @@
 title: "The Master and His Emissary by Iain McGilchrist: Part 1"
 date: 2025-10-04 # year-month-day
 # draft: true
-hero: images/books/master_and_emissary_part_1.png
-description: Some info.
+hero: images/books/master_and_emissary_part_1.jpg
+description: Part 1 Hemispheres
 theme: Toha
 menu:
   sidebar:
-    name: 1 - The Master and His Emissary by Iain McGilchrist
+    name: Master & Emissary Part 1
     identifier: books-master-and-emissary-part1
     parent: books-category
     weight: 10
