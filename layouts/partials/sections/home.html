@@ -168,50 +168,50 @@
       }
     }
     #homePageBackgroundImageDivStyled {
-        min-height: 0;
-        height: 360px;
-        max-height: 40vh;
+        min-height: 360px;
+        height: 40vh;
+        max-height: 360px;
         background-size: cover;
         background-position: center;
     }
 
     .container.content.text-center {
         width: 100%;
-        height: 360px;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         pointer-events: none;
         background: transparent;
-        margin: -300px 0 0 0;
-        padding: 0; /* Default: no padding for mobile */
-    }
-
-    /* Tablet and larger screens - offset the image */
-    @media (min-width: 768px) {
-        .container.content.text-center {
-            padding: 0 0 0 350px; /* Smaller offset for tablets */
-        }
-    }
-
-    /* Desktop screens - larger offset */
-    @media (min-width: 1200px) {
-        .container.content.text-center {
-            padding: 0 0 0 550px; /* Your original offset */
-        }
+        padding: 0;
+        transform: translateY(-70px); /* Shift everything up by 30px */
     }
 
     .container.content.text-center * {
         pointer-events: auto;
     }
 
+    /* Constrain the home container to match the background height */
     .container-fluid.home {
         min-height: 0 !important;
-        height: auto !important;
+        max-height: 360px !important; /* Match your background max-height */
         padding: 0 !important;
         margin: 0 !important;
-        background: transparent !important;
+        overflow: visible !important; /* Allow content to extend naturally */
+    }
+
+    /* New styles for name and subtitle */
+    .greeting {
+        font-size: 2.2rem !important;
+        color: #fff !important;
+        margin-bottom: 0.1rem;
+    }
+
+    .greeting-subtitle {
+        font-size: 1.2rem !important;
+        color: #d3d1d1 !important;
+        font-weight: 400;
     }
   </style>
     <span class="on-the-fly-behavior"></span>
@@ -228,7 +228,7 @@
     {{ if $author.subtitle }}
       <h2 class="greeting-subtitle">{{ $author.subtitle }}</h2>
     {{ end }}
-    <div class="typing-carousel">
+    <!-- <div class="typing-carousel">
       <span id="ityped" class="ityped"></span>
       <span class="ityped-cursor"></span>
     </div>
@@ -238,7 +238,7 @@
           <li>{{ . }}</li>
         {{ end}}
       {{ end }}
-    </ul>
+    </ul> -->
     {{ if $sections }}
       {{ range first 1 (where (sort $sections "section.weight") ".section.enable" true) }}
         {{ $sectionID := replace (lower .section.name) " " "-"  }}
@@ -259,8 +259,8 @@
     width: fit-content;
   }
   .static-arrow .fa-angle-down {
-    font-size: 2.5rem;   /* Make arrow larger */
-    color: #fff;         /* Color of down arrow */
+    font-size: 2.0rem;
+    color: #fff;
     transition: none;
   }
 </style>

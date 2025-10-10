@@ -426,50 +426,50 @@ document.documentElement.setAttribute('data-theme', theme)
       }
     }
     #homePageBackgroundImageDivStyled {
-        min-height: 0;
-        height: 360px;
-        max-height: 40vh;
+        min-height: 360px;
+        height: 40vh;
+        max-height: 360px;
         background-size: cover;
         background-position: center;
     }
 
     .container.content.text-center {
         width: 100%;
-        height: 360px;
+        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         pointer-events: none;
         background: transparent;
-        margin: -300px 0 0 0;
-        padding: 0;  
-    }
-
-     
-    @media (min-width: 768px) {
-        .container.content.text-center {
-            padding: 0 0 0 350px;  
-        }
-    }
-
-     
-    @media (min-width: 1200px) {
-        .container.content.text-center {
-            padding: 0 0 0 550px;  
-        }
+        padding: 0;
+        transform: translateY(-70px);  
     }
 
     .container.content.text-center * {
         pointer-events: auto;
     }
 
+     
     .container-fluid.home {
         min-height: 0 !important;
-        height: auto !important;
+        max-height: 360px !important;  
         padding: 0 !important;
         margin: 0 !important;
-        background: transparent !important;
+        overflow: visible !important;  
+    }
+
+     
+    .greeting {
+        font-size: 2.2rem !important;
+        color: #fff !important;
+        margin-bottom: 0.1rem;
+    }
+
+    .greeting-subtitle {
+        font-size: 1.2rem !important;
+        color: #d3d1d1 !important;
+        font-weight: 400;
     }
   </style>
     <span class="on-the-fly-behavior"></span>
@@ -482,15 +482,11 @@ document.documentElement.setAttribute('data-theme', theme)
       class="rounded-circle mx-auto d-block img-fluid"
       alt="Author Image"
     />
-    <h1 class="greeting"> Hi, I am Fabian</h1>
+    <h1 class="greeting">  Fabian Zimmer</h1>
     
-    <div class="typing-carousel">
-      <span id="ityped" class="ityped"></span>
-      <span class="ityped-cursor"></span>
-    </div>
-    <ul id="typing-carousel-data">
-      
-    </ul>
+      <h2 class="greeting-subtitle">Physicist, Educator, Writer</h2>
+    
+    
     
       
         
@@ -498,7 +494,7 @@ document.documentElement.setAttribute('data-theme', theme)
           
         
         
-        <a href="#about" class="arrow-center static-arrow" aria-label="Read More - Fabian"><i class="fa fa-angle-down"></i></a>
+        <a href="#about" class="arrow-center static-arrow" aria-label="Read More - Fabian Zimmer"><i class="fa fa-angle-down"></i></a>
       
     
   </div>
@@ -511,8 +507,8 @@ document.documentElement.setAttribute('data-theme', theme)
     width: fit-content;
   }
   .static-arrow .fa-angle-down {
-    font-size: 2.5rem;    
-    color: #fff;          
+    font-size: 2.0rem;
+    color: #fff;
     transition: none;
   }
 </style>
