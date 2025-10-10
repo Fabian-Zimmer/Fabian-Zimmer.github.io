@@ -427,31 +427,43 @@ document.documentElement.setAttribute('data-theme', theme)
     }
     #homePageBackgroundImageDivStyled {
         min-height: 0;
-        height: 360px;  
+        height: 360px;
         max-height: 40vh;
         background-size: cover;
         background-position: center;
     }
+
     .container.content.text-center {
         width: 100%;
-        height: 360px;  
+        height: 360px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         pointer-events: none;
         background: transparent;
-         
         margin: -300px 0 0 0;
-        padding: 0 0 0 550px;
-         
-         
+        padding: 0;  
     }
+
+     
+    @media (min-width: 768px) {
+        .container.content.text-center {
+            padding: 0 0 0 350px;  
+        }
+    }
+
+     
+    @media (min-width: 1200px) {
+        .container.content.text-center {
+            padding: 0 0 0 550px;  
+        }
+    }
+
     .container.content.text-center * {
         pointer-events: auto;
     }
 
-     
     .container-fluid.home {
         min-height: 0 !important;
         height: auto !important;

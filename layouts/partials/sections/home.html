@@ -169,32 +169,43 @@
     }
     #homePageBackgroundImageDivStyled {
         min-height: 0;
-        height: 360px; /* Adjust as needed */
+        height: 360px;
         max-height: 40vh;
         background-size: cover;
         background-position: center;
     }
+
     .container.content.text-center {
         width: 100%;
-        height: 360px; /* Match the background height */
+        height: 360px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         pointer-events: none;
         background: transparent;
-        /* For centered picture and arrow: */
         margin: -300px 0 0 0;
-        padding: 0 0 0 550px;
-        /* For picture and arrow aligned above about me section */
-        /* margin: -300px 0 0 0;
-        padding: 0 0 0 0px; */
+        padding: 0; /* Default: no padding for mobile */
     }
+
+    /* Tablet and larger screens - offset the image */
+    @media (min-width: 768px) {
+        .container.content.text-center {
+            padding: 0 0 0 350px; /* Smaller offset for tablets */
+        }
+    }
+
+    /* Desktop screens - larger offset */
+    @media (min-width: 1200px) {
+        .container.content.text-center {
+            padding: 0 0 0 550px; /* Your original offset */
+        }
+    }
+
     .container.content.text-center * {
         pointer-events: auto;
     }
 
-    /* Make sure the parent doesn't force extra height */
     .container-fluid.home {
         min-height: 0 !important;
         height: auto !important;
