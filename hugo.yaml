@@ -72,7 +72,7 @@ params:
       # Share post on different social media
       shareButtons:
         facebook: true
-        twitter: true
+        twitter: false
         linkedin: true
         reddit: true
         whatsapp: true
@@ -133,7 +133,7 @@ params:
       services:
         light: true # enable light theme. default "true"
         dark: true # enable dark theme. default "true"
-        default: system # can be either light, dark or system. default "system"
+        default: dark # can be either light, dark or system. default "system"
     
     # Number of posts to show to each page. Default is "12"
     pagination:
