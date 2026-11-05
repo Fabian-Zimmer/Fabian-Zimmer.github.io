@@ -103,16 +103,7 @@
     <priority>0.1</priority>
   </url><url>
     <loc>http://localhost:1313/posts/book_notes/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/philosophy_of_science/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/books/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
@@ -121,6 +112,9 @@
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/neuroscience/</loc>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
@@ -132,7 +126,13 @@
     <loc>http://localhost:1313/tags/worldview/</loc>
     <lastmod>2025-10-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-10-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/philosophy_of_science/part3/</loc>
+    <lastmod>2025-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/philosophy_of_science/</loc>
     <lastmod>2025-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/philosophy_of_science/part2/</loc>

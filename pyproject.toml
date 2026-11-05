@@ -1,0 +1,13 @@
+[project]
+name = "fabian-zimmer-github-io"
+version = "0.1.0"
+description = "Local toolchain (hugo, go, node) for building the website"
+requires-python = ">=3.10"
+dependencies = [
+    "hugo>=0.169",
+    "go-bin>=1.27",
+    "nodejs-wheel>=22",
+]
+
+[tool.uv]
+package = false

@@ -11,6 +11,30 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Xomnia
+    url: "https://xomnia.com/"
+    location: Amsterdam, Netherlands
+    logo: /images/sections/experiences/xomnia_logo.png
+  positions:
+  - designation: Data Platform Engineer
+    start: Oct 2026
+    responsibilities:
+    - Building data platforms for internal and client projects
+    - "Tooling: dbt, PySpark and SQL pipelines; Airflow & Dagster; Azure & Databricks; Terraform & Docker"
+
+# - company:
+#     name: Self-directed
+#     location: Amsterdam, Netherlands
+#   positions:
+#   - designation: Career Transition into Data Engineering
+#     start: Nov 2025
+#     end: Oct 2026
+#     responsibilities:
+#     - Full-time job search in a tough market
+#     - Networking; researching companies, missions and people
+#     - Interviewing, self-presentation and live coding
+
+- company:
     name: University of Amsterdam
     url: "https://www.uva.nl/"
     location: Amsterdam, Netherlands
@@ -21,6 +45,7 @@ experiences:
   positions:
   - designation: Physics PhD Researcher
     start: Sep 2021
+    end: Nov 2025
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Month Year
     # give some points about what was your responsibilities at the company.
